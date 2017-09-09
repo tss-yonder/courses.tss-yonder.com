@@ -21,6 +21,9 @@ header {
     &.header-panel {
         padding: 10px;
         background-color: $color-grey;
+        a:hover {
+            text-decoration: none;
+        }
         .course {
             color: $color-blue;
             margin: 0;
@@ -101,7 +104,7 @@ header {
         padding: 10px 10px 0 10px;
     }
     .sublist {
-        height: 355px;
+        height: 625px;
         margin-left: 30px;
         overflow: hidden;
         transition: height .25s ease-out;
