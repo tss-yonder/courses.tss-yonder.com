@@ -1,0 +1,14 @@
+sudo: false
+language: ruby
+cache: bundler
+rvm: 2.4.0
+branches:
+  only:
+    - master
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - JEKYLL_ENV=production
+install: bundle install
+script:
+  - bundle exec rake site:deploy --trace
