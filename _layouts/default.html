@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <main class="page-content row" aria-label="Content">
+        <!-- Sliding menu -->
+        <ul id="slide-out" class="side-nav">
+            <li class="card-panel" onclick="hideMenu()">
+                <i class="material-icons menu-icon">arrow_back</i>
+            </li>
+            <li class="is-selected"><a class="waves-effect" href="/">Home</a></li>
+            <li>
+                <a class="waves-effect" onclick="toggleCourses()">
+                  Courses 
+                  <span class="material-icons dropdown-icon">arrow_drop_down</span>
+              </a>
+                <ol class="sublist closed">
+                    {% assign posts = site.posts | sort: 'date' %} {% for post in posts %}
+                    <li>
+                        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                        <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                        <span class="post-meta">{{ post.date | date: date_format }}</span>
+                
+                        <h2>
+                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                        </h2> -->
+                    </li>
+                    {% endfor %}
+                </ol>
+            </li>
+            <li><a class="waves-effect" href="#!">Exam</a></li>
+            <li><a class="waves-effect" href="#!">FAQ</a></li>
+        </ul>
+        <!---->
+        <div class="content col s8 m9 l9">
+            {{ content }}
+        </div>
+
+    </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
