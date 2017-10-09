@@ -42,6 +42,11 @@ exclude:
   - .travis.yml
   - .build
 
-# Settings for build
-relative_source: "../courses.tss-yonder.com/"
-destination:     "../courses.tss-yonder.com-pages/"
+# Settings for build and deploy
+relative_source:    "../courses.tss-yonder.com/"
+destination:        "../courses.tss-yonder.com-pages/"
+production_url:     "https://courses.tss-yonder.com/"
+organization:       "tss-yonder"
+repository:         "courses.tss-yonder.com"
+source_branch:      "master"
+destination_branch: "gh-pages"
