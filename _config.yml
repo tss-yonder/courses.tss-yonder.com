@@ -1,7 +1,7 @@
 # Site Settings
 title: Cursuri susținute de TSS-Yonder
 url: "https://courses.tss-yonder.com"
-baseurl: null
+baseurl: ""
 paginate_path: resurse/pagina-:num/
 permalink: resurse/:categories/:title/
 force-https: True
@@ -10,6 +10,8 @@ paginate: 5
 google-tracking-id: "UA-99139394-1"
 
 # Build Settings
+github:             [metadata]
+encoding:           UTF-8 
 markdown:           kramdown
 kramdown:
   input:            GFM
@@ -38,6 +40,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - vendor
   - .gitignore
   - .travis.yml
   - .build
@@ -46,7 +49,6 @@ exclude:
 relative_source:    "../courses.tss-yonder.com/"
 destination:        "../courses.tss-yonder.com-pages/"
 production_url:     "https://courses.tss-yonder.com/"
-organization:       "tss-yonder"
-repository:         "courses.tss-yonder.com"
+repo:               "tss-yonder/courses.tss-yonder.com"
 source_branch:      "master"
 destination_branch: "gh-pages"

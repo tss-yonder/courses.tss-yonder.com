@@ -1,17 +1,17 @@
 require 'rake'
 require 'date'
 require 'yaml'
+require 'html-proofer'
 
 CONFIG = YAML.load(File.read('_config.yml'))
-ORGANIZATION = CONFIG["organization"]
-REPOSITORY = CONFIG["repository"]
+REPOSITORY = CONFIG["repo"]
 SOURCE_BRANCH = CONFIG["source_branch"]
 DESTINATION_BRANCH = CONFIG["destination_branch"]
 DESTINATION = CONFIG["destination"]
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://$GIT_NAME:$GH_TOKEN@github.com/#{ORGANIZATION}/#{REPOSITORY}.git #{DESTINATION]}"
+    sh "git clone https://$GIT_NAME:$GH_TOKEN@github.com/#{REPOSITORY}.git #{DESTINATION}"
   end
 end
 
@@ -41,11 +41,14 @@ namespace :site do
     # Generate the site
     sh "bundle exec jekyll build"
 
+    # Check if the website content is valid.
+    HTMLProofer.check_directory(DESTINATION).run
+
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
       sh "git add --all ."
-      sh "git commit -m 'Updating to #{ORGANIZATION}/#{REPOSITORY}@#{sha}.'"
+      sh "git commit -m 'Updating to #{REPOSITORY}@#{sha}.'"
       sh "git push --quiet origin #{DESTINATION_BRANCH}"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
