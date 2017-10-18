@@ -41,9 +41,6 @@ namespace :site do
     # Generate the site
     sh "bundle exec jekyll build"
 
-    # Check if the website content is valid.
-    HTMLProofer.check_directory(DESTINATION).run
-
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
@@ -53,4 +50,20 @@ namespace :site do
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
   end
+
+  desc "Test the website"
+  task :test do
+    options = {
+      :allow_hash_href => true,
+      :check_html => true,
+      :check_external_hash => false,
+      :disable_external => true,
+    }
+    begin
+      HTMLProofer.check_directory(DESTINATION, options).run
+    rescue => error_message
+      puts "#{error_message}"
+    end
+  end
+
 end

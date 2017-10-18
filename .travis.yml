@@ -11,4 +11,5 @@ env:
     - JEKYLL_ENV=production
 install: bundle install
 script:
-  - bundle exec rake site:deploy --trace
+  - bundle exec rake site:deploy
+  - bundle exec rake site:test
