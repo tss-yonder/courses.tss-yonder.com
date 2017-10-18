@@ -1,0 +1,21 @@
+<ul id="slide-out" class="side-nav">
+    <li class="card-panel" onclick="hideMenu()">
+        <i class="material-icons menu-icon">arrow_back</i>
+    </li>
+    <li class="is-selected"><a class="waves-effect" href="/">Home</a></li>
+    <li>
+        <a class="waves-effect" onclick="toggleCourses()">
+          Courses 
+          <span class="material-icons dropdown-icon">arrow_drop_down</span>
+      </a>
+        <ol class="sublist closed">
+            {% assign posts = site.posts | sort: 'date' %} {% for post in posts %}
+            <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+            {% endfor %}
+        </ol>
+    </li>
+    <li><a class="waves-effect" href="#!">Exam</a></li>
+    <li><a class="waves-effect" href="#!">FAQ</a></li>
+</ul>
