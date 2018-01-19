@@ -9,7 +9,11 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - JEKYLL_ENV=production
-install: bundle install
+install:
+    - gem install jekyll
+    - gem install s3_website
 script:
-  - bundle exec rake site:deploy
+  - bundle install
+  - bundle exec jekyll build
   - bundle exec rake site:test
+after_success: s3_website push
