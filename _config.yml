@@ -8,6 +8,7 @@ force-https: True
 lang: "ro"
 paginate: 5
 google-tracking-id: "UA-99139394-1"
+theme: "prettydocs-jekyll"
 
 # Build Settings
 github:             [metadata]
@@ -30,7 +31,6 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
 
 exclude:
   - CONTRIBUTING
@@ -46,9 +46,4 @@ exclude:
   - .build
 
 # Settings for build and deploy
-relative_source:    "../courses.tss-yonder.com/"
-destination:        "../courses.tss-yonder.com-pages/"
 production_url:     "https://courses.tss-yonder.com/"
-repo:               "tss-yonder/courses.tss-yonder.com"
-source_branch:      "master"
-destination_branch: "gh-pages"
