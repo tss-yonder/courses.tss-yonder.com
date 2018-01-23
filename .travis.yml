@@ -11,9 +11,15 @@ env:
     - JEKYLL_ENV=production
 install:
     - gem install jekyll
-    - gem install s3_website
 script:
   - bundle install
   - bundle exec jekyll build
   - bundle exec rake site:test
-after_success: s3_website push
+deploy:
+  provider: s3
+  access_key_id: $S3_ACCESS_KEY_ID
+  secret_access_key: $S3_SECRET_KEY
+  bucket: courses.tss-yonder.com
+  local_dir: _site
+  skip_cleanup: true
+  acl: public_read
