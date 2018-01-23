@@ -1,0 +1,42 @@
+- title: 'Referitor la materie'
+  intro: ''
+  cards:
+    - title: 'Desfășurare'
+      intro: 'prezentările aferente cursului'
+      color: 'blue'
+      icon:  'fa-star'
+      url: ''
+
+    - title: 'Examinare'
+      intro: 'aspecte privind evaluarea'
+      color: 'red'
+      icon:  'fa-exclamation'
+      url: ''
+
+    - title: 'Proiect'
+      intro: 'proiecte practice'
+      color: 'primary'
+      icon:  'fa-linux'
+      url: ''
+    
+    
+- title: 'Alte resurse'
+  intro: ''
+  cards:
+    - title: 'Resurse'
+      intro: 'diverse resurse ce completează informațiile din cadrul laboratoarelor'
+      color: 'green'
+      icon:  'fa-rss'
+      url: ''
+
+    - title: 'FAQs'
+      intro: 'întrebări comune referitoare la cursuri și laboratoare'
+      color: 'purple'
+      icon:  'fa-question'
+      url: ''
+
+    - title: 'Contact'
+      intro: 'modalități de contact'
+      color: 'orange'
+      icon: 'fa-address-card-o'
+      url: ''
