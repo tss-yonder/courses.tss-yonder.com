@@ -1,0 +1,8 @@
+- title: 'Laboratoare susținute de TSS-Yonder'
+  intro: ''
+  cards:
+    - title: 'Open-Source'
+      intro: 'tehnologii, proiecte și comunități deschise'
+      color: 'pink'
+      icon:  'fa-laptop'
+      url: '/laboratoare/open-source'
