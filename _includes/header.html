@@ -1,15 +1,25 @@
-<header class="extra-panel card-panel">
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons menu-icon">menu</i></a>
-    <a href="{{ site.url }}/{{ site.baseurl }}">
-        <img class="logo" src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ page.title }}" />
-    </a>
-</header>
-<header class="header-panel card-panel">
-    <a href="/">
-        <p class="course"> Open </p>
-        <p class="course"> Source </p>
-    </a>
-    <a href="{{ site.url }}/{{ site.baseurl }}">
-        <img class="logo" src="{{ site.baseurl }}/assets/images/logo.png"  alt="{{ page.title }}"/>
-    </a>
+<header id="header" class="header {% if page.page-type == 'home' %}text-center{% endif %}">
+    <div class="container">
+        <div class="branding">
+            <h1 class="logo">
+                <a href="{{ page.url }}">
+                    <span aria-hidden="true" class="fa fa-book icon"></span>
+                    <span class="text-highlight">TSS-Yonder</span>
+                    <span class="text-bold">Courses</span>
+                </a>
+            </h1>
+        </div>
+        
+        {% if page.page-type == 'home' %}
+            <div class="tagline">
+                <p>Free Bootstrap theme for your project documentation</p>
+                <p>Designed with <i class="fa fa-heart"></i> for developers</p>
+            </div>
+        {% else %}
+            <ol class="breadcrumb">
+                <li><a href="{{ breadcrumb-home-link }}">Ala bala</a></li>
+                <li class="active">Test</li>
+            </ol>
+        {% endif %}
+    </div>
 </header>
