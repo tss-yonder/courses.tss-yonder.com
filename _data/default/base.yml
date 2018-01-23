@@ -1,0 +1,24 @@
+author: "TSS-Yonder"
+title: "Cursuri susținute de TSS-Yonder"
+meta:
+    - name: "description"
+      lang: "ro"
+      content: "Situl dedicat cursurilor susținute de TSS-Yonder."
+
+    - name: "keywords"
+      lang: "en"
+      content: >
+        Web, WWW, technology, course, Romania, Iasi, Computer Science, university,
+        academic, information, education, school, project, lang programming,
+        document, software, application, student, grade
+
+    - name: "keywords"
+      lang: "ro"
+      content: >
+        Web, WWW, technologie, curs, Romania, Iasi, Informatica, universitate,
+        academic, informatie, educatie, scoala, proiect, limbaj, programare,
+        document, software, aplicatie, student, nota
+header:
+  title: 'Cursuri'
+  subtitle: 'TSS-Yonder'
+  tagline: []

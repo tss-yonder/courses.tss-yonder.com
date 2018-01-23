@@ -1,0 +1,35 @@
+- title: 'Metodologii de lucru în mediul Open-Source'
+  intro: ''
+  cards:
+    - title: 'Curs'
+      intro: 'tehnologii, proiecte și comunități deschise'
+      color: 'pink'
+      icon:  'fa-archive'
+      url: '/cursuri/open-source'
+
+    - title: 'Laborator'
+      intro: 'tehnologii, proiecte și comunități deschise'
+      color: 'blue'
+      icon:  'fa-laptop'
+      url: '/laboratoare/open-source'
+
+- title: 'Resurse utile'
+  intro: ''
+  cards:
+    - title: 'Articole'
+      intro: 'diverse resurse ce completează informațiile din cadrul laboratoarelor'
+      color: 'green'
+      icon:  'fa-rss'
+      url: '/resurse'
+
+    - title: 'Întrebări comune'
+      intro: 'întrebări comune referitoare la cursuri și laboratoare'
+      color: 'purple'
+      icon:  'fa-question'
+      url: '/faqs'
+
+    - title: 'Echipa noastră'
+      intro: 'echipa din spatele acestui proiect'
+      color: 'orange'
+      icon: 'fa-users'
+      url: '/echipa'
