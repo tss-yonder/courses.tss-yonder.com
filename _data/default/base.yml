@@ -21,4 +21,5 @@ meta:
 header:
   title: 'Cursuri'
   subtitle: 'TSS-Yonder'
+  icon: 'fa-book'
   tagline: []
