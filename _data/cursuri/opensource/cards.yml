@@ -5,21 +5,14 @@
       intro: 'prezentările aferente cursului'
       color: 'blue'
       icon:  'fa-star'
-      url: ''
+      url: '/cursuri/open-source/desfasurare/'
 
-    - title: 'Examinare'
-      intro: 'aspecte privind evaluarea'
-      color: 'red'
-      icon:  'fa-exclamation'
-      url: ''
+    - title: 'Reguli'
+      intro: 'regulament intern'
+      color: 'pink'
+      icon:  'fa-fire'
+      url: '/cursuri/open-source/reguli/'
 
-    - title: 'Proiect'
-      intro: 'proiecte practice'
-      color: 'primary'
-      icon:  'fa-linux'
-      url: ''
-    
-    
 - title: 'Alte resurse'
   intro: ''
   cards:
@@ -27,16 +20,16 @@
       intro: 'diverse resurse ce completează informațiile din cadrul laboratoarelor'
       color: 'green'
       icon:  'fa-rss'
-      url: ''
+      url: '/resurse'
 
     - title: 'FAQs'
       intro: 'întrebări comune referitoare la cursuri și laboratoare'
       color: 'purple'
       icon:  'fa-question'
-      url: ''
+      url: '/faqs'
 
     - title: 'Contact'
       intro: 'modalități de contact'
       color: 'orange'
       icon: 'fa-address-card-o'
-      url: ''
+      url: '/cursuri/open-source/contact'

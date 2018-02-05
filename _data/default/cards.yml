@@ -25,7 +25,7 @@
     - title: 'Întrebări comune'
       intro: 'întrebări comune referitoare la cursuri și laboratoare'
       color: 'purple'
-      icon:  'fa-question'
+      icon:  'fa-question-circle'
       url: '/faqs'
 
     - title: 'Echipa noastră'

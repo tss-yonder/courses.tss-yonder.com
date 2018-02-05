@@ -1,0 +1,77 @@
+- icon: 'fa-handshake-o'
+  content: >
+    În mediul academic, relaţia dintre profesor şi student se bazează pe
+    încredere. Studenţii trebuie să aibă încredere că deciziile luate de
+    profesor(i) sunt cele mai potrivite privind structura, conţinutul,
+    organizarea şi predarea materiei -- i.e., curs, ore de laborator, consultaţii.
+    De asemenea, profesorii vor avea încredere în faptul că exerciţiile, temele,
+    testele şi/sau proiectele evaluate au drept autori studenţii examinaţi.
+
+- icon: 'fa-street-view'
+  content: >
+    Activităţi precum trişatul, plagiatul -- inclusiv folosirea de (fragmente
+    de) conţinut şi/sau de cod-sursă provenit din alte surse offline şi/sau online
+    fără precizarea autorilor iniţiali ori încălcând licenţa de utilizare --,
+    falsificarea rezultatelor, furnizarea de informaţii false, denigrarea, 
+    concurenţa neloială etc. conduc la erodarea acestei relaţii de încredere,
+    subminând procesul educaţional. Ele reprezintă manifestarea unui comportament
+    neacademic, fiind penalizate -- după caz -- de profesorul responsabil cu
+    laboratorul, titularul disciplinei, conducerea facultăţii sau a universităţii
+    pe baza regulamentelor în vigoare.
+
+- icon: 'fa-paint-brush'
+  content: >
+    Testele, temele şi proiectele evaluate trebuie să reprezinte activitatea
+    specifică a studentului în cauză. Dacă anumite situaţii speciale necesită
+    ajutor suplimentar oferit de terţe entităţi (inclusiv recurgerea la componente
+    software şi/sau alte resurse Web), acest fapt va fi consemnat explicit, în
+    scris. De asemenea, în cazul lucrului în echipă, fiecare membru al acesteia
+    va specifica -- într-un document scris semnat înmânat evaluatorului --
+    contribuţia proprie. Nerespectarea acestor reguli conduce la penalizare.
+
+- icon: 'fa-exclamation-triangle'
+  content: >
+    Orice întârziere în predarea unei teme obligatorii va avea ca rezultat
+    aplicarea unei penalizări de *20%* din punctajul rezultat în urma evaluării,
+    pentru fiecare săptămână suplimentară.
+
+- icon: 'fa-bed'
+  content: >
+    Necesităţi speciale (de exemplu, cazurile medicale) vizând desfăşurarea
+    proceselor didactice, inclusiv cele referitoare la evaluare, pot fi solicitate
+    pe baza unor acte oficiale, eventual fiind rezolvate de către titularul
+    disciplinei sau de conducerea facultăţii.
+
+- icon: 'fa-phone'
+  content: >
+    Utilizarea telefoanelor mobile ori a altor dispozitive potenţial producătoare
+    de zgomot este interzisă pe parcursul orelor de laborator sau curs, cu excepţia
+    cazurilor speciale.
+
+- icon: 'fa-flag'
+  content: >
+    Părăsirea şi (re)ocuparea unui loc în cadrul laboratorului, inclusiv utilizarea
+    calculatorului propriu, vor avea acceptul profesorului responsabil de laborator.
+
+- icon: 'fa-comments'
+  content: >
+    Informaţiile solicitate de către membrii echipei disciplinei vor fi transmise
+    de student via e-mail folosind adresa disponibilă pe serverul studenţilor
+    (students.info.uaic.ro) şi având obligatoriu "[Open-Source]" ca prefix al
+    subiectului mesajului. Sunt acceptate numai formatele textuale (text neformatat
+    sau HTML) şi arhivele '.tar.gz'. Nerespectarea acestor prevederi are drept
+    consecinţă ignorarea mesajului.
+
+- icon: 'fa-rss'
+  content: >
+    Studenţii au obligaţia să consulte informaţiile disponibile online privind
+    acest obiect, inclusiv anunţurile oficiale emise prin poşta electronică.
+
+- icon: 'fa-tasks'
+  content: >
+    Orice alte nelămuriri (inclusiv contestaţii), observaţii şi sugestii pot
+    fi adresate personal în prezenţa colegilor. În cazul în care apar solicitări
+    reprezentând punctul de vedere al majorităţii studenţilor, acestea vor fi
+    exprimate prin intermediul reprezentantului de an. Interpelările trimise prin
+    poşta electronică sau prin alte mijloace electronice nu sunt, de regulă,
+    luate în consideraţie.
