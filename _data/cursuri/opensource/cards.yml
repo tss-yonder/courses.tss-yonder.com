@@ -5,7 +5,7 @@
       intro: 'prezentările aferente cursului'
       color: 'blue'
       icon:  'fa-star'
-      url: ''
+      url: '/cursuri/open-source/desfasurare/'
 
     - title: 'Examinare'
       intro: 'aspecte privind evaluarea'
@@ -18,8 +18,13 @@
       color: 'primary'
       icon:  'fa-linux'
       url: ''
-    
-    
+
+    - title: 'Reguli'
+      intro: 'regulament intern'
+      color: 'pink'
+      icon:  'fa-fire'
+      url: '/cursuri/open-source/reguli/'
+
 - title: 'Alte resurse'
   intro: ''
   cards:
