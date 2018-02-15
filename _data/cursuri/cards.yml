@@ -4,5 +4,5 @@
     - title: 'Open-Source'
       intro: 'tehnologii, proiecte și comunități deschise'
       color: 'pink'
-      icon:  'fa-laptop'
+      icon:  'fas fa-laptop'
       url: '/cursuri/open-source'

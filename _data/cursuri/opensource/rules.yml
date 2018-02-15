@@ -1,4 +1,4 @@
-- icon: 'fa-handshake-o'
+- icon: 'fas fa-handshake'
   content: >
     În mediul academic, relaţia dintre profesor şi student se bazează pe
     încredere. Studenţii trebuie să aibă încredere că deciziile luate de
@@ -7,7 +7,7 @@
     De asemenea, profesorii vor avea încredere în faptul că exerciţiile, temele,
     testele şi/sau proiectele evaluate au drept autori studenţii examinaţi.
 
-- icon: 'fa-street-view'
+- icon: 'fas fa-street-view'
   content: >
     Activităţi precum trişatul, plagiatul -- inclusiv folosirea de (fragmente
     de) conţinut şi/sau de cod-sursă provenit din alte surse offline şi/sau online
@@ -19,7 +19,7 @@
     laboratorul, titularul disciplinei, conducerea facultăţii sau a universităţii
     pe baza regulamentelor în vigoare.
 
-- icon: 'fa-paint-brush'
+- icon: 'fas fa-paint-brush'
   content: >
     Testele, temele şi proiectele evaluate trebuie să reprezinte activitatea
     specifică a studentului în cauză. Dacă anumite situaţii speciale necesită
@@ -29,31 +29,31 @@
     va specifica -- într-un document scris semnat înmânat evaluatorului --
     contribuţia proprie. Nerespectarea acestor reguli conduce la penalizare.
 
-- icon: 'fa-exclamation-triangle'
+- icon: 'fas fa-exclamation-triangle'
   content: >
     Orice întârziere în predarea unei teme obligatorii va avea ca rezultat
     aplicarea unei penalizări de *20%* din punctajul rezultat în urma evaluării,
     pentru fiecare săptămână suplimentară.
 
-- icon: 'fa-bed'
+- icon: 'fas fa-bed'
   content: >
     Necesităţi speciale (de exemplu, cazurile medicale) vizând desfăşurarea
     proceselor didactice, inclusiv cele referitoare la evaluare, pot fi solicitate
     pe baza unor acte oficiale, eventual fiind rezolvate de către titularul
     disciplinei sau de conducerea facultăţii.
 
-- icon: 'fa-phone'
+- icon: 'fas fa-phone'
   content: >
     Utilizarea telefoanelor mobile ori a altor dispozitive potenţial producătoare
     de zgomot este interzisă pe parcursul orelor de laborator sau curs, cu excepţia
     cazurilor speciale.
 
-- icon: 'fa-flag'
+- icon: 'fas fa-flag'
   content: >
     Părăsirea şi (re)ocuparea unui loc în cadrul laboratorului, inclusiv utilizarea
     calculatorului propriu, vor avea acceptul profesorului responsabil de laborator.
 
-- icon: 'fa-comments'
+- icon: 'fas fa-comments'
   content: >
     Informaţiile solicitate de către membrii echipei disciplinei vor fi transmise
     de student via e-mail folosind adresa disponibilă pe serverul studenţilor
@@ -62,12 +62,12 @@
     sau HTML) şi arhivele '.tar.gz'. Nerespectarea acestor prevederi are drept
     consecinţă ignorarea mesajului.
 
-- icon: 'fa-rss'
+- icon: 'fas fa-rss'
   content: >
     Studenţii au obligaţia să consulte informaţiile disponibile online privind
     acest obiect, inclusiv anunţurile oficiale emise prin poşta electronică.
 
-- icon: 'fa-tasks'
+- icon: 'fas fa-tasks'
   content: >
     Orice alte nelămuriri (inclusiv contestaţii), observaţii şi sugestii pot
     fi adresate personal în prezenţa colegilor. În cazul în care apar solicitări
