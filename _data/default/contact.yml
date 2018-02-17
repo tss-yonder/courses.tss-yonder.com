@@ -4,7 +4,6 @@
     pregătite cu drag de către colegii noștrii.
   members:
     - name: "Alexandru Coman"
-      avatar: ""
       email: "alexandru.coman@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
@@ -18,59 +17,39 @@
           url: "https://alexcoman.com/"
 
     - name: "Andrei Sahaidac"
-      avatar: ""
       email: "andrei.sahaidac@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
-          url: ""
+          url: "https://github.com/andreidotnet"
         - title: "Profilul tehnic"
           icon: "fab fa-linkedin"
-          url: ""
-        - title: "Situl personal"
-          icon: "fas fa-anchor"
-          url: ""
+          url: "https://www.linkedin.com/in/andrei-sahaidac-2a098490/"
 
     - name: "Dragoș Dimitriu"
-      avatar: ""
       email: "dragos.dimitriu@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
-          url: ""
-        - title: "Profilul tehnic"
-          icon: "fab fa-linkedin"
-          url: ""
-        - title: "Situl personal"
-          icon: "fas fa-anchor"
-          url: ""
+          url: "https://github.com/dragos0"
 
     - name: "Florin Asăvoaie"
-      avatar: ""
+      avatar: "https://avatars0.githubusercontent.com/u/3115473"
       email: "florin.asavoaie@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
-          url: ""
+          url: "https://github.com/FlorinAsavoaie"
         - title: "Profilul tehnic"
           icon: "fab fa-linkedin"
-          url: ""
-        - title: "Situl personal"
-          icon: "fas fa-anchor"
-          url: ""
+          url: "https://www.linkedin.com/in/florin-asavoaie/"
     
     - name: "Gabriel Paiu"
-      avatar: ""
       email: "gabriel.paiu@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
-          url: ""
+          url: "https://github.com/gpaiu"
         - title: "Profilul tehnic"
           icon: "fab fa-linkedin"
-          url: ""
-        - title: "Situl personal"
-          icon: "fas fa-anchor"
-          url: ""
-    
-
+          url: "https://www.linkedin.com/in/gabrielpaiu/"
