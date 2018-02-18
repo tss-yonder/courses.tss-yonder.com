@@ -7,6 +7,99 @@ date: 2018-02-17 12:00:00
 author: "Gabriel Paiu"
 excerpt_separator: <!--more-->
 ---
+
+# Instalarea CentOS
+
+## Resurse necesare
+
+Pentru pregătirea mediului în care vom lucra, vom folosi hypvervisor-ul VirtualBox și o imagine ISO cu sistemul de operare, în acest caz, CentOS 7 Minimal disponibil pentru descărcare la [https://www.centos.org/download/](https://www.centos.org/download/), iar hypervisor-ul poate fi descărcat de la [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+VirtualBox este un aplicație de tip hypervisor ce vă permite să virtualizați o mașină fizică. Acea mașină virtuală va fi izolată de sistemul de operare al mașinii gazdă, dar va folosi resurse alocate pe aceasta.
+
+## Instalarea VritualBox
+
+Peste procedura de instalare a VirtualBox nu vom trece in amănunt. deoarece este suficient sa urmați pașii de instalare cu setările implicite, nefiind nevoie de configurări adiționale. Pentru fiecare sistem de operare este disponibil un utilitar care vă va ghida in procesul de instalare
+
+## Specificațiile mașinii virtuale
+
+Setări privitoare la prcesoare: 1 CPU cu 1 nucleu
+Setări privitoare la memorie: 1GB RAM
+Setări privitoare la spațiul de stocare: 15GB prealocați
+Setări privitoare la rețea:
+- Adaptor de rețea 1: NAT (asigura comunicarea cu exteriorul)
+- Adaptor de rețea 2: Host Only (faciliteaza comunicarea cu sistemul de operare gazdă)
+
+## Instalarea sistemului de operare
+
+### Crearea mașinii si setarea resurselor
+
+Pentru început, vom deschide aplicația VirtualBox si vom crea o mașina nouă. Putem opta fie pentru ”Guided Mode” sau ”Expert Mode”, ambele fiind potrivie pentru ceea ce avem de realizat. În cadrul acestui tutorial, am ales ”Expert Mode”.
+
+Vom completa câmpul cu numele mașinii pe care o vom crea, după care din dropdown vom selecta Linux si RedHat, deoarece CentOS este o distribuție de RedHat. Vom aloca apoi 1024MB de RAM si vom alege să creem si un hard disk odată cu mașina virtuală
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-02.png)
+
+La pasul urmator vom fi prezentați cu opțiuni referitoare la unde va fi alocat efectiv spațiul pe discul mașinii gazdă. Puteți selecta locația in funcție de preferința organizatorie, având grijă sa alocăm spațiul menționat in specificațiile precedente.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-03.png)
+
+După acest pas, ar trebui să aveți deja alocate resurse, iar mașina virtuală este creată.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-04.png)
+
+Înainte de a porni procesul de instalare al sistemului de operare, vom aloca si adaptorii de rețea. Asadar in opțiunile mașinii virtuale, la secțiunea Network, veți găsi posibilitatea de a adăuga și de a asigna adaptorii conform specificațiilor.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-05.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-06.png)
+
+Deasemenea, la rubrica Storage, va trebui să montăm imaginea de CentOS descărcata în prealabil, ca mașina virtuală să poată accesa secvența de pornire a acesteia. In consecință, vom adăuga un disc optic ce ne va permite sa incărcăm imaginea desărcată.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-07.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-08.png)
+
+Dupa acest pas, suntem pregătiți pentru a trece mai departe la instalarea efectiva a sistemului de operare.
+
+### Instalarea sistemului de operare
+
+Dupa ce am pornit mașina virtuală vom fi prezentați cu 3 opțiuni dintre care vom alege sa instalăm CentOS 7. La pasul următor, veți avea posibilitatea sa alegeți limba in care vă va fi oferit ghidul de instalare.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-09.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-10.png)
+
+Setările privitoare la schema de partiționare o vom alege noi, pentru a putea folosi volume logice ce ne vor fi necesare în laboratoarele ulterioare.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-11.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-12.png)
+
+Schema de partiționare:
+- /boot - 200MB - Standard Partition
+- / - 10GB - Logical Partition
+- swap - 1GB - swap
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-13.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-14.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-15.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-16.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-17.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-18.png)
+
+Ulterior, vom activa adaptorii de rețea, și vom seta hostname-ul mașinii virtuale, dupa care putem porni procedura de instalare.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-19.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-20.png)
+
+În timpul acesteia, vom putea seta si parola pentru utilizatorul ”root” (cu drepturile depline pe sistem) dar si pentru un utilizator ”normal”, pentru care veți putea introduce si informații descriptive.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-21.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-22.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-23.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-24.png)
+
+Odată ce instalarea se va finaliza, veți putea reporni mașina virtuală. Rezultatul final va fi o consolă în care veți putea introduce datele de autentificare pentru sistem, cele pe care le-ați configurat la pașii precedenți.
+
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-25.png)
+![image-title]({{site.url}}/assets/images/laboratoare/laborator-1/vm-install-26.png)
+
 # Notiuni introductive in Bash
 
 ## Despre
