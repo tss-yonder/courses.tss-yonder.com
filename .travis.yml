@@ -24,3 +24,4 @@ deploy:
   local_dir: _site
   skip_cleanup: true
   acl: public_read
+  cache_control: "max-age=900"
