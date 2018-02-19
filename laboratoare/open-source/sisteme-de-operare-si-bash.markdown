@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Sisteme de operare si Bash"
+title: "Sisteme de operare și Bash"
 permalink: /laboratoare/open-source/sisteme-de-operare-si-bash/
 layout: post
 date: 2018-02-17 12:00:00
@@ -8,12 +8,12 @@ author: "Gabriel Paiu"
 excerpt_separator: <!--more-->
 ---
 
-## Pregătirea mediului de lucru (*30 minute*)
+## Pregătirea mediului de lucru
 
 Pentru laboratorul curent o să aveți nevoie de o mașină virtuală cu Centos 7.
 În cazul în care întâmpinați probleme în instalarea sistemului de operare puteți consulta următorul articol [Instalarea sistemului de operare CentOS 7][1].
 
-## Recapitulare noțiuni de Bash (*30 minute*)
+## Recapitulare noțiuni de Bash
 
 O scurtă recapitulare a noțiunilor de bază despre Bash ce au fost discutate în cadrul cursului de Sisteme de Operare poate fi găsită la următoarea [adresă][2].
 
@@ -27,16 +27,19 @@ Hint: Puteti folosi comanda diff
 ### Exercitiul 2
 
 Se da un fisier .csv (campuri separate prin virgula), cu linii de forma:
-
+```
 server-1.tld.com,10.10.0.1,Apache 2.4,PHP 5,MySQL 5.5
+```
 
 Sa se extraga si afiseze datele in urmatorul format
 
+```
 Host: server-1.tld.com
 IP: 10.10.0.1
 Web: Apache 2.4
 Backend: PHP 5
 Database: MySQL 5.5
+```
 
 Hint: Puteti folosi comanda cut
 
