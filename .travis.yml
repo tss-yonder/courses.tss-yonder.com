@@ -1,7 +1,9 @@
 sudo: false
 language: ruby
-cache: bundler
 rvm: 2.4.1
+cache:
+  - bundler
+  - pip
 branches:
   only:
     - master
@@ -10,16 +12,17 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - JEKYLL_ENV=production
 install:
-    - gem install jekyll
-    - pip install awscli
+  - gem install jekyll
+  - pip install --user awscli
+  - pip install --user s3cmd
 script:
   - bundle install
   - bundle exec jekyll build
   - bundle exec rake site:test
 deploy:
   provider: s3
-  access_key_id: $S3_ACCESS_KEY_ID
-  secret_access_key: $S3_SECRET_KEY
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: courses.tss-yonder.com
   region: eu-central-1
   local_dir: _site
