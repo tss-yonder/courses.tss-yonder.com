@@ -1,0 +1,24 @@
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 1'
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-html5'
+  heading: 'Laborator: <a href="sisteme-de-operare-si-bash">Sisteme de operare și Bash</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    noțiuni de sisteme de operare (procese, servicii, package, gestiunea utilizatorilor, gestiunea discurilor),
+    noțiuni generale de rețelistică,
+    introducere în limbajul Bash.
+  footer: '<a href="#">Temă acasă</a> | Termen limită: săptămâna 2'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'

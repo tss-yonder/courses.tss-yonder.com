@@ -5,6 +5,8 @@ date: 2018-01-24 12:00:00
 author: "Andrei Sahaidac"
 categories: [tutorial, sisteme-operare]
 excerpt_separator: <!--more-->
+layout: post
+highlight: true
 ---
 
 Un proces îl putem defini ca un program in execuţie. Ele sunt unităţi prin care sistemul de operare alocă resurse utilizatorilor.

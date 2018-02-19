@@ -20,20 +20,7 @@
       <li>Tipuri de licențiere</li>
     </ul>
 
-  footer: 'Data: <a href="#">Va fi anunțată în curând.</a>'
-
-- type: 'event'
-  class: 'warning'
-  point:
-    class: 'black'
-    icon: 'fas fa-laptop'
-  heading: 'Laborator: <a href="#">Sisteme de operare & Virtualizare (recapitulare)</a>'
-  body: >
-    Subiecte abordate în cadrul acestui laborator:
-    noțiuni de sisteme de operare (procese, servicii, package, gestiunea utilizatorilor, gestiunea discurilor),
-    noțiuni generale de rețelistică,
-    introducere în limbajul Bash.
-  footer: '<a href="#">Temă acasă</a> | Termen limită: săptămâna 2'
+  footer: 'Data: 23 februarie 2018'
 
 - type: 'label'
   class: 'danger'

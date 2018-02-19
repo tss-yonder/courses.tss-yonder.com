@@ -5,6 +5,8 @@ date: 2018-02-16 12:00:00
 author: "Andrei Sahaidac"
 categories: [tutorial, sisteme-operare]
 excerpt_separator: <!--more-->
+layout: post
+highlight: true
 ---
 
 Să discutăm despre partiţii, tipuri de partiţii, partiţii primare, partiţii extinse, partiţii logice, file systems.
