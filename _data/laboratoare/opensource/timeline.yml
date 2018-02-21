@@ -17,7 +17,7 @@
     noțiuni de sisteme de operare (procese, servicii, package, gestiunea utilizatorilor, gestiunea discurilor),
     noțiuni generale de rețelistică,
     introducere în limbajul Bash.
-  footer: '<a href="#">Temă acasă</a> | Termen limită: săptămâna 2'
+  footer: '<a href="sisteme-de-operare-si-bash/#tema">Temă acasă</a> | Termen limită: săptămâna 2'
 
 - type: 'label'
   class: 'danger'

@@ -17,6 +17,37 @@ Bash (Bourne Again Shell) este un superset al Shell Command Language (SH) care p
 
 In bash nu exista decat variabile ca si structuri de date, care nu pot fi altceva decat siruri de caractere. Orice comanda sau operator care simuleaza alte structuri de date sau tipuri de variabile (de exemplu compararea intregilor sau declararea vectorilor) sunt doar implementari peste siruri de caractere care se pot comporta in anumite situatii ca si vectori sau intregi.
 
+## Ordinea evenimentelor în execuția comenzilor in shell
+
+- Shell-ul citește input (din fișier, terminal, șir de caractere) și le separă in cuvinte si operatori cu metacaractere
+- Expansiunea aliasurilor
+- Shell-ul analizeaza si reconstruiește informațiile în comenzi compuse
+- Expansiunea elementelor de Shell
+- Redirectarea descriptorilor. Operatorii și operanzii acestora sunt eliminați din argumente
+- Comenzile sunt executate
+- Cod de ieșire (definit sau ultimul rezultat returnat de ultima comanda executată)
+
+## Expansiunea elementelor de Shell
+
+1. Expansiunea acoladelor În acest pas, elementele componente definite între acolade sunt concatenate în mod repetat la șirul ce le conține
+- Concatenează fiecare element definit într-o listă la șirul precedent
+- Exemplu: echo a{1,2,3} -> a1 a2 a3
+2. Expansiunea tilda: ~PREFIX/string
+Intre ~ (tidla) și primul slash (/) se poate insera opțional un prefix. Există mai multe variante de substituție in acest caz. Exemple:
+- ~/ sau ~ va fi substituit cu $HOME/director $ echo ~ /Users/gpaiu
+- ~+/ sau ~+ va fi substituit de $PWD $ echo ~+ /Users/gpaiu/Music
+- ~-/ sau ~- va fi substituit de $OLDPWD
+- ~USER/ va fi substituit de $HOME aferent utilizatorului USER
+3. Parametrii de shell si substituirea variabilelor
+4. Substituirea argumentelor primite in formă de comenzi -- pentru comenzile executate folosind sintaxa $(ls -1A) sau \`ls -1A\`
+5. Expansiunea operațiilor aritmentice -- exemplu: $((VAR++)) sau [ $EXPRESSION ]
+6. Substituirea proceselor (redirecționarea canalelor) -- exempluȘ 1>/dev/null 2>&1
+7. Separarea cuvintelor
+- Shell-ul scanează rezultatele operațiunilor de expansiune a parametrilor de shell, variabilelor, substituția argumentelor in formă de comenzi și a operațiilor aritmetice (pașii 3, 4 si 5) care nu au fost incapsulate între ghilimele
+- Șirurile sunt separate in cuvinte, iar caracterele din parametrul de shell $IFS (Internal Field Separator) vor servi ca delimitatoare
+8. Expansiunea numelor de fișiere. Pentru tipare definite cu caracterele asterisk (*), semnul intrebării (?) sau paranteză unghiulară deschisă ([)
+9. Eliminarea ghilimelelor
+
 ## Sintaxa
 
 Orice script invocat intr-un shell trebuie sa contina la inceput un shebang. Shebang-ul incepe ca un comentariu, cu caracterul diez (#) dar este urmat de un semn de excalamare (!) si programul care va executa secventa de cod ce urmeaza. Fiecare secventa de cod poate fi apelata si in terminal. In cazul Bash, vom folosi ca shebang #!/bin/bash.
