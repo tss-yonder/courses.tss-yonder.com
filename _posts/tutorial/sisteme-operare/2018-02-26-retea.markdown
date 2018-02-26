@@ -1,0 +1,85 @@
+---
+layout: post
+title: "Retelistica"
+date: 2018-02-26 12:00:00
+author: "Andrei Sahaidac"
+categories: [tutorial, sisteme-operare]
+excerpt_separator: <!--more-->
+layout: post
+highlight: true
+---
+
+Prezentăm modulul de rețea, utilitare și tipuri de configurare dar și firewall
+<!--more-->
+
+## Linux și rețelistica
+
+Linux inițiază tabela de routare a sistemului în timpul pornirii sistemului de operare. După ce kernelul termină secvența de inițializare, acesta rulează anumite utilitare de sistem si verifică fișiere de configurare ale sistemului de operare, prin care stabiliește identitatea calculatorului la nivel de rețea.
+
+Aici vorbim de informații precum propria identitate (adresa IP), inițializarea interfețelor de rețea disponibile pe sistem, setarea rutelor de conectare spre rețele externe (spre internet).
+
+Tot acest proces poate fi static (setarea statică a configurării) sau dinamică (folosirea protocolului DHCP). Pe scurt, am descris unul din rolurile serviciul de rețelistică din Linux.
+
+Vom discuta în continuare de implementarea acestui modul in versiunea Centos 7/Red Hat Enterprise 7, dar aplicabile si pentru distribuții precum Fedora 19.
+
+
+## Utilitare
+
+Serviciul specific care se ocupă de resursele de rețelistică se numește NetworkManager. Acesta este un serviciu de tip daemon. 
+
+Utilitarele prin care putem interacționa cu acest serviciu sunt :
+
+- nmtui - este un program bazat pe o interfață text disponibil in consolă/terminal
+
+- nmcli - este un utilitar bazat pe comenzi si parameteri, disponibil in consolă/terminal
+
+- control-center - utilitar grafic
+
+- nm-connection-editor - utilitar grafic cu funcții suplimentare
+
+NetworkManager ar trebui sa vina preinstalat, fiind un serviciu esențial, dar se poate instala cu ajutorul comenzii
+```bash
+yum install NetworkManager
+```
+
+Pentru a verifica starea serviciului, putem folosi următoarele comenzi în terminal
+```bash
+systemctl status NetworkManager
+NetworkManager.service - Network Manager
+   Loaded: loaded (/lib/systemd/system/NetworkManager.service; enabled)
+   Active: active (running) since Fri, 08 Mar 2013 12:50:04 +0100; 3 days ago
+
+### Putem porni serviciul
+systemctl start NetworkManager
+### Putem opri serviciul
+systemctl stop NetworkManager
+### Putem reporni serviciul
+systemctl restart NetworkManager  
+### Putem pune serviciul să pornească automat la inițializarea sistemului
+systemctl enable NetworkManager
+### Putem pune serviciul să NU pornească automat la inițializarea sistemului
+systemctl disable NetworkManager 
+```
+
+Informațiile setate cu ajutorul acestor utilitare se pot găsi in locația */etc/sysconfig/* .
+
+Fișierele cu setări specifice conexiunilor de VPN, PPPoE se pot găsi în locația */etc/NetworkManager/* .
+
+Dacă aceste fișiere sunt editate, pentru a se aplica schimbările specificate în fișiere, trebuie notificat serviciul de NetworkManager pentru a reciti fișierele de configurare.   
+
+```bash
+### Pentru a reciti toate fișierele 
+nmcli connection reload
+### Pentru a reciti un fișier specific
+nmcli con load /etc/sysconfig/network-scripts/ifcfg-ifname
+```
+
+## Firewall
+
+
+## Resurse
+* [https://ocw.cs.pub.ro/courses/rl/labs/07](https://ocw.cs.pub.ro/courses/rl/labs/07)
+* [http://rrg.utcluj.ro/cb/Laborator_7.pdf](http://rrg.utcluj.ro/cb/Laborator_7.pdf)
+* [https://opensource.com/business/16/8/introduction-linux-network-routing](https://opensource.com/business/16/8/introduction-linux-network-routing)
+* [http://www.penguintutor.com/linux/basic-network-reference](http://www.penguintutor.com/linux/basic-network-reference)
+* [https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/ch-configure_ip_networking](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/ch-configure_ip_networking)
