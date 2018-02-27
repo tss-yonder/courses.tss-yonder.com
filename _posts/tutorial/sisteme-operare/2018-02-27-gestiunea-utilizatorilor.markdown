@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Managementul pachetelor"
+title: "Gestiunea utilizatorilor"
 date: 2018-02-27 12:00:00
 author: "Dragos Dimitriu"
 categories: [tutorial, sisteme-operare]
@@ -10,14 +10,14 @@ highlight: true
 ---
 ## Introducere
 
-Într-un sistem operare cu utilizatori multipli există un număr unic de identificare (UID), ce distince utilizatori intre ei. Acesta poate fi folosit de către un operator uman sau de către o aplicație specifică.
+Într-un sistem operare cu utilizatori multipli există un număr unic de identificare (UID), ce distinge utilizatori intre ei. Acesta poate fi folosit de către un operator uman sau de către o aplicație specifică.
 
 Utilizatorii unui grup pot avea permisiuni de:
 - citire (read)
 - scriere (write)
 - execuție (execute)
 
-sau orice combinație dintre cele menționate asupra fișierelor deținute (owned) de acel grup.
+Sau orice combinație dintre cele menționate asupra fișierelor deținute (owned) de acel grup.
 
 În funcție de distribuție este permisă utilizarea listelor de control al accesului (Acess Control Lists - ACL) pentru fișiere și directoare ce permit specificarea permisiunilor pentru utilizator, cu excepția proprietarului (owner).
 
@@ -40,7 +40,7 @@ Proprietarul poate fi schimbat doar de root, iar permisiunile doar de root sau p
 Implicit, un fișier sau director poate fi modificat doar de proprietar. Setările care determină comportamentul implicit se numește umask și poate fi configurat din /etc/bashrc.
 Comanda umask suprascrie permisiunile implicite pe durata sesiunii.
 
-Pentru autentificare, utilizatorul are nevoie de o parolă. O funcție hash este aplicată unui șir de caractere ce conține parola și alte elemente și este stocată.
+Pentru autentificare, utilizatorul are nevoie de o parolă. O funcție hash este aplicată unui șir de caractere ce conține parola și alte elemente, după care este stocată.
 Când utilizatorul dorește să se autentifice, introduce parola și este comparat rezultatul aplicării aceleași funcții cu rezultatul stocat de către sistem. Dacă acestea sunt identice, utilizatorul este autentificat.
 
 Rezultatele funcțiilor hash sunt stocate în /etc/shadow, care poate fi citit doar de root.
