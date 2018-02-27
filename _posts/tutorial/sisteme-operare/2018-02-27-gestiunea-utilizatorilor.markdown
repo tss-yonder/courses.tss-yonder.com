@@ -1,6 +1,12 @@
-
-
-
+---
+layout: post
+title: "Managementul pachetelor"
+date: 2018-02-27 12:00:00
+author: "Dragos Dimitriu"
+categories: [tutorial, sisteme-operare]
+excerpt_separator: <!--more-->
+layout: post
+highlight: true
 ---
 ## Introducere
 
