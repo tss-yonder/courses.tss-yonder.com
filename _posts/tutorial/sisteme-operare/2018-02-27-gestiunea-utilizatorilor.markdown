@@ -8,6 +8,12 @@ excerpt_separator: <!--more-->
 layout: post
 highlight: true
 ---
+
+
+Acest tutorial este o scurtă recapitulare a noțiunilor referitoare la gestiunea utilizatorilor ce au fost predate în cadrul cursului de Sisteme de Operare.
+
+<!--more-->
+
 ## Introducere
 
 Într-un sistem operare cu utilizatori multipli există un număr unic de identificare (UID), ce distinge utilizatori intre ei. Acesta poate fi folosit de către un operator uman sau de către o aplicație specifică.
