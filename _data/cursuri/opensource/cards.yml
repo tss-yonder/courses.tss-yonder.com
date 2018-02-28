@@ -13,6 +13,12 @@
       icon:  'fas fa-fire'
       url: '/cursuri/open-source/reguli/'
 
+    - title: 'Examinare'
+      intro: 'aspecte privind evaluarea'
+      color: 'primary'
+      icon:  'fab fa-qq'
+      url: '/cursuri/open-source/evaluare/'
+
 - title: 'Alte resurse'
   intro: ''
   cards:
