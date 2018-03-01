@@ -61,6 +61,7 @@ După acest pas, ar trebui să aveți deja alocate resurse, iar mașina virtual�
 %}
 
 Înainte de a porni procesul de instalare al sistemului de operare, vom aloca si adaptorii de rețea. Asadar in opțiunile mașinii virtuale, la secțiunea Network, veți găsi posibilitatea de a adăuga și de a asigna adaptorii conform specificațiilor.
+În cazul în care **nu există un adaptor de tip HostOnly disponibil pe mașina gazdă**, va trebui creat din meniul de Preferences -> Network  al aplicației VirtualBox.
 
 {% include _utils/picture
     picture="/assets/images/tutorial/virtualbox/instalare-centos-7/vm-install-05.png"
