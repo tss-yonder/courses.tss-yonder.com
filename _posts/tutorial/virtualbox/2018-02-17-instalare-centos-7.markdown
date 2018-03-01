@@ -144,6 +144,7 @@ Schema de partiționare:
 %}
 
 Ulterior, vom activa adaptorii de rețea, și vom seta hostname-ul mașinii virtuale, dupa care putem porni procedura de instalare.
+În cazul în care nu există un adaptor de tip HostOnly disponibil pe mașina gazdă, va trebui creat din meniul de Preference -> Network  al aplicației VirtualBox.
 
 {% include _utils/picture
     picture="/assets/images/tutorial/virtualbox/instalare-centos-7/vm-install-19.png"
