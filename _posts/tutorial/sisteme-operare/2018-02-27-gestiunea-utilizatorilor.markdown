@@ -32,7 +32,7 @@ La fel ca pentru utilizatori, există și pentru grupuri un număr de identifica
 
 >Atenție!
 În ditribuțiile Linux bazate pe Red Hat Enterprise, numerele de identificare respectiv, UID și GID, sub 500 sunt rezervate de sistem.
-Se recomandă utilizarea ID-urilor peste 5000, iar pentru a seta acest lucru în mod implicit se pot modfica directivele UID_MIN și GID_MIN din /etc/login.defs
+Se recomandă utilizarea ID-urilor peste 5000, iar pentru a seta acest lucru în mod implicit se pot modfica directivele UID_MIN și GID_MIN din `/etc/login.defs`
 
 Fiecare utilizator poate face parte dintr-un singur grup primar și zero sau mai multe grupuri auxiliare (supplementary).
 Un grup auxiliar permite utilizatorilor care fac parte din acesta accesul la fișiere deținute de acest grup.
@@ -43,7 +43,7 @@ Un utilizator își poate schimba temporar grupul primar, ceea ce determină ca 
 Un fișier are asociat permisiuni de citire, scriere și execuție pentru proprietar, grup și alții (others).
 Proprietarul poate fi schimbat doar de root, iar permisiunile doar de root sau proprietar.
 
-Implicit, un fișier sau director poate fi modificat doar de proprietar. Setările care determină comportamentul implicit se numește umask și poate fi configurat din /etc/bashrc.
+Implicit, un fișier sau director poate fi modificat doar de proprietar. Setările care determină comportamentul implicit se numește umask și poate fi configurat din `/etc/bashrc`.
 Comanda umask suprascrie permisiunile implicite pe durata sesiunii.
 
 Pentru autentificare, utilizatorul are nevoie de o parolă. O funcție hash este aplicată unui șir de caractere ce conține parola și alte elemente, după care este stocată.
@@ -69,6 +69,7 @@ useradd -c "Robert Smith" robert # setat nume întreg
 cat /etc/passwd # rezultatul
 ```
 >`robert:x:502:502:Robert Smith:/home/robert:/bin/bash`
+
 ```
 useradd -d /home/dir_1 robert # home specificat
 useradd -M username # fară home
@@ -129,7 +130,7 @@ ex.
 lslogins # informații implicite
 lslogins --help # lista completă de opțiuni disponibile
 lslogins LOGIN # informații despre un singur utilizator, unde LOGIN poate fi un username sau UID
-lslogins --login=LOGIN # informații pentru o mai mulți utilizatori
+lslogins --login=LOGIN # informații pentru mai mulți utilizatori
 ```
 
 ---
@@ -145,6 +146,7 @@ groupadd group_name # creare grup cu setări implicite
 cat /etc/group # rezultatul
 ```
 >`group_name:x:30005:`
+
 ```
 groupadd -g GID group_name # creează grupul cu GID specificat, dacă respectă unicitatea (excepție în cazul utilizării opțiunii -o)
 groupadd -r group_name # creează grup de sistem, cu un GID între 1 și 499
@@ -154,7 +156,7 @@ groupadd -r group_name # creează grup de sistem, cu un GID între 1 și 499
 
 ## Modificare setări pentru grup
 
-Comanda gpasswd administrează  fișierele /etc/group și /etc/gshadow. Acestă comandă funcționează doar pentru administratorii grupului, ce pot:
+Comanda `gpasswd` administrează  fișierele `/etc/group` și `/etc/gshadow`. Acestă comandă funcționează doar pentru administratorii grupului, ce pot:
 - adăuga și șterge utilizatori
 - seta, schimba sau elimina parola de grup
 
@@ -178,6 +180,7 @@ groupmod -g NEW_GID group_name # schimbare GID pentru grup
 >Atenție!
 >Trebuie găsite toate fișierele ce aparțin acelui GID inițial și schimbat proprietarul. La fel trebuie procedat și cu Listele de Control al Accesului (ACLs) ce fac referințe la acel GID.
 >Recomandat este și verificarea proceselor ce pot rula cu GID-ul inițial.
+
 ```
 groupmod -n new_group_name group_name # schimbare denumire grup
 ```
@@ -187,7 +190,7 @@ groupmod -n new_group_name group_name # schimbare denumire grup
 
 ## Ștergere grup
 
-Se utilizează comanda groupdel pentru a șterge toate intrările referitoare la grupul specificat
+Se utilizează comanda `groupdel` pentru a șterge toate intrările referitoare la grupul specificat
 ```
 groupdel group_name
 ```
@@ -270,5 +273,5 @@ chmod 700 directory # rezultat: drwx------
 ---
 ## Resurse:
 
-https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/
-https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-navigating-ownership.html
+* [https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/)
+* [https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-navigating-ownership.html](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-navigating-ownership.html)
