@@ -222,12 +222,14 @@ Cursul are ca scop formarea unui grup de studenți pasionați de tehnologie ce d
 
 ## Referințe
 http://www.revolution-os.com/
+
 https://www.gnu.org
-https://opensource.org/
+
 https://opensource.com/article/17/12/open-source-business-models
+
 https://help.github.com/articles/licensing-a-repository/
+
 https://www.datamation.com/open-source/35-top-open-source-companies-1.html
-https://www.google.ro
-https://en.wikipedia.org
+
 
 ## Mulțumim!
