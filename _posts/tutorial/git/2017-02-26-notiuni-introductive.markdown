@@ -87,7 +87,7 @@ La ultimul pas puteți apăsa pe „**Skip**”, deoarece încă nu aveți niciu
     title="Importarea repo"
 %}
 
-## Crearea primul commit
+## Crearea primului commit
 Acum vom clona (crea o copie locală) repository-ul creat anterior. Din aplicație vom da click pe „**+**”, vom selecta tab-ul „**Clone**”, contul și repository-ul pe care dorim să-l clonăm, iar în final vom apăsa „**Clone \<repo-name\>**”. Pe ecran va apărea o fereastră pentru selectarea directorului unde se va face clonarea.
 
 {% include _utils/picture

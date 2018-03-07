@@ -21,7 +21,7 @@ Pentru fiecare dintre laboratoarele propuse, structura directoarelor respectă u
 denumire_laborator
 ├── date_iesire
 │   └── nume_exercițiu
-│       └── date_intrare
+│       └── date_iesire
 ├── date_intrare
 │   └── nume_exercițiu
 │       └── date_intrare
