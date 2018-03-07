@@ -10,7 +10,7 @@
   class: 'primary'
   point:
     class: 'info'
-    icon: 'fab fa-html5'
+    icon: 'fas fa-hashtag'
   heading: 'Laborator: <a href="sisteme-de-operare-si-bash">Sisteme de operare și Bash</a>'
   body: >
     Subiecte abordate în cadrul acestui laborator:
@@ -18,6 +18,18 @@
     noțiuni generale de rețelistică,
     introducere în limbajul Bash.
   footer: '<a href="sisteme-de-operare-si-bash/#tema">Temă acasă</a> | Termen limită: săptămâna 3'
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-github'
+  heading: 'Laborator: <a href="git">Git</a>'
+  body: >
+    Pentru a veni în întâmpinarea celor care nu sunt familiarizați cu sistemul de versionare
+    git am pregătit acest laborator care vă va arăta pașii care trebuie urmați pentru a
+    contibui într-un mod cât mai ușor la un proiect ce folosește ca sistem de versionare
+    a codului sursă utilitarul git.
 
 - type: 'label'
   class: 'danger'
