@@ -45,4 +45,4 @@ Pentru a evidenția mai bine situațiile pe care le puteți întâlni în moment
 [3]: https://github.com/
 [4]: {{ site.baseurl }}/resurse/tutorial/git/notiuni-introductive/#crearea-contului-github
 [5]: https://try.github.io/
-[6]: learngitbranching.js.org
+[6]: https://learngitbranching.js.org
