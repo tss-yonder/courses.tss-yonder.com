@@ -55,3 +55,33 @@
 - type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 3'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../curs-3">Sisteme de versionare</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Versionarea produselor software</li>
+      <li>Sisteme de control al versiunilor</li>
+      <li>CVS, SVN, Git, Mercurial</li>
+      <li>Git - ghid de bune practici</li>
+    </ul>
+
+
+  footer: 'Data: 07 martie 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
