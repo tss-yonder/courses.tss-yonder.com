@@ -1,0 +1,258 @@
+---
+title: "Curs 2"
+permalink: /cursuri/open-source/curs-2/
+layout: shower
+date: 2018-02-19 12:00:00
+author: ""
+excerpt_separator: <!--more-->
+style: |
+
+    #Cover h2 {
+        margin:30px 0 0;
+        color:#FFF;
+        text-align:center;
+        font-size:70px;
+        }
+    #Cover p {
+        margin:10px 0 0;
+        text-align:center;
+        color:#FFF;
+        font-style:italic;
+        font-size:20px;
+        }
+        #Cover p a {
+            color:#FFF;
+            }
+    #Picture h2 {
+        color:#FFF;
+        }
+    #SeeMore h2 {
+        font-size:100px
+        }
+    img {
+        width:0.72em;
+        height:0.72em;
+        }
+---
+
+# Metodologii de lucru în mediul Open-Source
+![](https://upload.wikimedia.org/wikipedia/commons/1/1d/BlankMap-World-WWII.PNG)
+
+## Cuprins
+- Freeware vs Free software
+- Giganţii din industrie
+- Linux
+  - Distros
+  - Prezentare generală
+
+## Cuprins
+- Componente de bază
+  - Procese
+  - Gestiunea discurilor
+  - Pachete
+  - Gestiunea utilizatorilor
+
+
+## Freeware vs Free software
+- Freeware reprezintă software disponibil fără nici un cost. Cu alte cuvinte, deși freeware este gratuit de cele mai multe ori este software proprietar.
+- Acest lucru presupune că modificarea, redistribuirea sau ingineria inversă nu este permisă decât cu acordul proprietarului.
+- Example de freeware:
+  - Skype
+  - Adobe Acrobat Reader
+  - Chrome
+
+## Freeware vs Free software
+- Fiecare își construiește un set clar de reguli pentru produsul lor freeware.
+- De exemplu redistribuția de către o terță parte este permisă în majoritatea cazurilor, dar există un segment semnificativ care interzic acest lucru.
+- Freeware, deși gratuit, poate fi construit astfel încât să aducă beneficii proprietarului:
+  - încurajarea achiziționării unei versiuni mai capabile (Modelul de afaceri Freemium sau Shareware)
+
+## Giganţii din industrie
+
+## Google & Open-source
+- https://opensource.google.com/projects/list
+- „Google believes that open source is good for everyone. By being open and freely available, it enables and encourages collaboration and the development of technology, solving real world problems”
+- Google oferă peste 70 de proiecte spre comunitatea open-source (de la Android, Angular, Go, Kubernetes, Chromium până la „some ssh scripts”)
+
+## Google & Open-source
+- Android – License Apache License 2.0 & GNU GPL v2 for the Linux kernel modifications
+- picture with apache license 2.0
+- Întrebare: ce motive ar avea Google să ofere sistemul de operare Android în mod gratuit către producători și utilizatori, dacă dezvoltarea acestui OS are un cost ?
+
+## Microsoft & Open-source
+- https://open.microsoft.com/
+- Distributie proprie FreeBSD pentru Microsoft Azure cloud
+- Peste 1600 proiecte publice pe Github https://github.com/Microsoft
+Printre paşii iniţiali a fost deschiderea platformei https://codeplex.com/, dezvoltarea limbajului F#, contribuţia spre kernel-ul Linux cu drivere care să ajute la compatibilitatea cu Hyper-V
+
+## Microsoft & Open-source
+- “Microsoft's current CEO, Satya Nadella, has proclaimed that Microsoft loves Linux” – conferință Microsoft Azure cloud
+- “Linux is not in the public domain. Linux is a cancer that attaches itself in an intellectual property sense to everything it touches. That's the way that the license work” - Steve Ballmer
+
+## Microsoft & Open-source
+- Visual Studio Code - IDE
+- .Net Core Libraries, runtime & compiler – Platforma .Net
+- TypeScript - succesor JavaScript dezvoltat de Microsoft
+- ChakraCore – motor JavaScript pentru Microsoft Edge
+- BashOnWindows – WINE pentru Windows
+
+## Facebook & Open-source
+- https://code.facebook.com/projects/
+- https://github.com/facebook
+- 179 proiecte publice pe GitHub
+- Pe langa proiecte software, putem observa si proiecte hardware open source
+
+## Facebook & Open-source
+- HHVM – Mașină virtuală open-source care combină un web server cu un compilator PHP
+- React - succesor JavaScript dezvoltat de Facebook
+- Presto – engine SQL
+- FBCTF – platformă „capture the flag”
+
+## Linux
+- Distros
+  - Termenul „distro” este o abreviere a cuvântului „distribution” (distribuție)
+  - O distribuție Linux reprezintă un sistem de operare compus dintr-o colecție de software, care se bazează pe un Linux kernel împreună cu un sistem de gestiune a pachetelor.
+
+## Linux
+![distros](/{{ "assets/images/courses/distros.png" | prepend: site.baseurl }})
+
+## Linux
+- Prezentare generală
+  - O distribuție obișnuită conține:
+  - Linux kernel
+  - GNU tools and libraries (GNU Compiler Collection (GCC), GNU make, GNU Debugger (GDB))
+  - additional software
+
+## Linux
+- Prezentare generală
+  - O distribuție obișnuită conține:
+  - documentation
+  - a window system (the most common being the X Window System),
+  - a window manager
+  - desktop environment
+Atenție!
+  - De cele mai multe ori distribuțiile includ opțional și software proprietar, precum „binary blobs” necesare pentru unele drivere, care nu au codul sursă facut public
+
+## Linux
+![gui_structure](/{{ "assets/images/courses/gui_structure.png" | prepend: site.baseurl }})
+
+## Linux
+![bootup_process](/{{ "assets/images/courses/bootup_process.png" | prepend: site.baseurl }})
+
+## Procese
+- Tipuri:
+  - Procese de utilizator:
+    - procese de foreground - sunt acele procese interactive, care pot fi iniţializate şi controlate de utilizatori printr-o sesiune pe sistem.
+    - procese de background - aici vorbim de procesele non-interactive/automate; la aceste procese nu ar trebui să ne aşteptăm că vor avea nevoie de input-ul utilizatorilor
+
+## Procese
+  - Procese de kernel
+    - se execută în kernel space și au acces la complet la structurile de date din kernel
+  - Daemons
+    - Procesele de tip “daemons” sunt o categorie aparte de procese de background, care pornesc la începutul sistemului de operare si vor rula pe toata durata sesiunii (servicii).
+
+## Procese
+- Un proces poate avea mai multe stări, care descriu etapa de rulare:
+  - Running - aici vorbim despre etapa în care procesul fie este rulat, fie aşteaptă sa fie rulat de către sistem
+  - Waiting - in această stare, un proces aşteaptă un anumit eveniment pentru a îşi continua activitatea
+  - Stopped - în această stare, un proces a fost oprit, după ce a primit un semnal de oprire
+  - Zombie - în acest caz, procesul este oprit complet, dar a rămas în evidenţa tabelului de procesare
+
+## Procese
+![bootup_process](/{{ "assets/images/courses/processes.png" | prepend: site.baseurl }})
+
+## Procese
+- Semnale
+  - Putem controla procesele prin intermediul unor utilitare de sistem - kill, pkill, pgrep sau killall.
+
+## Procese
+  - Linux are mai multe tipuri de semnale pentru terminarea proceselor:
+    - SIGTERM (15), varianta implicită dacă nu specificăm altceva; este o variantă sigură din punct de vedere al salvării informațiilor;
+    - SIGHUP (1), varianta care va reîncărca fișierele de configurare specifice și va redeschide fișiere log;
+    - SIGKILL (9), varianta pentru închiderea imediată, fără salvarea datelor.
+
+## Gestiunea discurilor
+- Partiții:
+  - Să partiţionăm un disk înseamnă că vom împarţi spaţiul fizic disponibil în mai multe părţi logice astfel încât să putem stoca informaţii într-un mod mai intuitiv pentru tipurile de date pe care le vom folosi
+  - Atunci când partiționăm un hard disc, calculatorul va trata fiecare partiție aproape ca pe un hard disk separat.
+
+## Gestiunea discurilor
+  - Tipuri de partiții:
+    - Partiţii primare - Numărul partiţiilor primare este limitat la 4. Este o limitare care vine din modul în care a fost gândită iniţial comunicarea intre disc si restul componentelor.
+    - Partiţii extinse - Este o metodă prin care se încearcă evitarea limitării partiţiilor primare. Dacă sunt necesare mai multe partiţii, faţă de cele 4 de tip primar, se pot crea si acest tip de partiţii.
+    - Partiţii logice - O partiţie logică este o partiţie care se crează în interiorul unei partiţii extinse.
+
+## Gestiunea discurilor
+- În Linux este nevoie de cel puţin 2 partiţii pentru a rula sistemul de operare:
+  - partiţia de bază (root) - /
+  - partiţia de swap
+
+## Gestiunea discurilor
+- Un filesystem este o metodă prin care datele sunt structurate, astfel încât datele să fie salvate pe disc și sistemul de operare să poată să ştie cum sunt salvate datele şi cum ar trebui să fie accesate. Exemple de filesystem:
+  - ext3
+  - ext4
+  - swap
+
+## Gestiunea discurilor
+![pv_vg_lv](/{{ "assets/images/courses/pv_vg_lv.png" | prepend: site.baseurl }})
+
+## Gestiunea discurilor
+![directory_structure](/{{ "assets/images/courses/directory_structure.png" | prepend: site.baseurl }})
+
+## Gestiunea pachetelor
+![dependecy_hell](/{{ "assets/images/courses/dependecy_hell.png" | prepend: site.baseurl }})
+
+## Gestiunea pachetelor
+- Ce sunt pachetele în Linux ?
+- Make – ce se întâmpla înaintea pachetelor
+- RPM/DEB – avantajele unui pachet pre-compilat
+- RPM/Yum – manager de pachete
+
+## Gestiunea utilizatorilor
+- Într-un sistem operare cu utilizatori multipli există un număr unic de identificare (UID), ce distinge utilizatori intre ei. Acesta poate fi folosit de către un operator uman sau de către o aplicație specifică.
+- Grupul reprezintă o metodă de organizare a utilizatorilor cu un scop comun, ce poate îngloba permisiuni pentru fișiere deținute de acel grup. La fel ca pentru utilizatori, există și pentru grupuri un număr de identificare unic de grup (GID).
+
+## Gestiunea utilizatorilor - Permisiuni modul 1 (mode)
+
+|  Identități                        | Permisiuni               | Acțiuni:                              |
++------------------------------------|--------------------------|---------------------------------------|
+|* u : proprietarul (user)		      *|* r : citire (read)      *|* + : adaugă permisiuni               *|
+|* g : grupul proprietarului(group) *|* w : scriere (write)    *|* - : revocă permisiuni               *|
+|* o : alții (others)               *|* x : execuție (execute) *|* = : înlocuiește cu noile permisiuni *|
+|* a : toți (u, g și o) (all)		    *|*                        *|*                                     *|
+
+## Gestiunea utilizatorilor - Permisiuni modul 2 (octal-mode)
+  - 4 : citire (read)
+  - 2 : scriere (write)
+  - 1 : execuție (execute)
+- Ex.
+```
+chmod g=rx file ~  chmod 050 file => ----r-x--- owner:owner file
+```
+- Don’t forget! Principle of least privilege
+
+## Recapitulare
+- Freeware vs Free software
+- Giganţii din industrie
+- Linux
+  - Distros
+  - Prezentare generală
+
+## Recapitulare
+- Componente de bază
+  - Procese
+  - Gestiunea discurilor
+  - Pachete
+  - Gestiunea utilizatorilor
+
+
+## Referințe
+https://code.facebook.com/projects/
+https://opensource.google.com/
+https://courses.tss-yonder.com/resurse/tutorial/sisteme-operare/gestiunea-utilizatorilor/
+https://linuxhere.files.wordpress.com/2010/08/lintimeline2.png
+https://i.stack.imgur.com/Lf51j.png
+https://qph.fs.quoracdn.net/main-qimg-8fe67e69330325329d7c92cb2a09101e
+https://access.redhat.com/sites/default/files/attachments/processstates_20120831.pdf
+
+## Mulțumim!

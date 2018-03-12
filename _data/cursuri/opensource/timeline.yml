@@ -11,16 +11,46 @@
   point:
     class: 'black'
     icon: 'fas fa-book'
-  heading: 'Curs: <a href="../curs-1">Software - aspecte generale și istoric</a>'
+  heading: 'Curs: <a href="../curs-1">Open source - aspecte generale și istoric</a>'
   body: >
     O parte dintre aspectele abordate în cadrul cursului:
     <ul>
-      <li>Ce inseamna software (Open Source)?</li>
-      <li>Free Software (as in beer / Free Willy)</li>
-      <li>Tipuri de licențiere</li>
+      <li>Scurtă Istorie</li>
+      <li>Fundații</li>
+      <li>Licențe</li>
+      <li>Afaceri</li>
     </ul>
 
   footer: 'Data: 23 februarie 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 2'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../curs-2">Linux - aspecte generale și istoric</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Freeware vs Free software</li>
+      <li>Giganţii din industrie</li>
+      <li>Linux</li>
+      <li>Componente de bază</li>
+    </ul>
+
+  footer: 'Data: 28 februarie 2018'
 
 - type: 'label'
   class: 'danger'
