@@ -31,6 +31,15 @@
     contibui într-un mod cât mai ușor la un proiect ce folosește ca sistem de versionare
     a codului sursă utilitarul git.
 
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Laborator: <a href="docker">Docker</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    introducere în Docker, containerizare vs. virtualizare, containere, imagini, volume
 - type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
