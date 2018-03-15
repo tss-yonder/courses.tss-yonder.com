@@ -1,6 +1,6 @@
 ---
 title: "Tema - Configurarea mașinilor virtuale"
-permalink: /laboratoare/open-source/teme/tema-extra-1
+permalink: /laboratoare/open-source/teme/tema-extra-1/
 group: "laboratoare.opensource"
 layout: post
 color: blue
