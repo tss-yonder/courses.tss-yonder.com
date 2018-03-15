@@ -2,10 +2,6 @@
   class: 'success'
   icon: 'fas fa-play'
 
-- type: 'label'
-  class: 'primary'
-  content: 'săptămâna 1'
-
 - type: 'event'
   class: 'primary'
   point:
@@ -35,11 +31,31 @@
   class: 'primary'
   point:
     class: 'info'
+    icon: 'fab fa-github'
+  heading: 'Tema suplimentară: <a href="teme/tema-extra-1">Configurarea mașinilor virtuale</a>'
+  body: >
+    Pentru a veni în întâmpinarea studenților ce doresc să obțină puncte suplimentare punem la
+    dispoziție o temă opțională ce va aborda toate subiectele discutate până în acest punct
+    în cadrul laboratoarelor.
+  footer: >
+    Termen limită: săptămâna 7
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna curentă'
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
     icon: 'fab fa-docker'
   heading: 'Laborator: <a href="docker">Docker</a>'
   body: >
     Subiecte abordate în cadrul acestui laborator:
     introducere în Docker, containerizare vs. virtualizare, containere, imagini, volume
+  footer: >
+    <a href="teme/tema-2">Temă acasă</a> | Termen limită: săptămâna 5
+
 - type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
