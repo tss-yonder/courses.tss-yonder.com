@@ -24,6 +24,8 @@ Evaluarea la această disciplină va consta din următoarele componente facultat
 
 Punctajul final este calculat astfel: **PF** = Sum(**TC**) * 0.2 + Average(**TL**) * 0.4 + **P** * 0.5.
 
+Rezultatele pot fi consultate la următoarea [adresă][0].
+
 ## Precizări importante
 
  * Testele scrise **TC** și temele de laborator **TL** nu se vor putea resusţine în sesiune/restanţe, fiind evaluate numai pe parcursul semestrului.
@@ -38,6 +40,7 @@ Alte aspecte de interes sunt:
 * În sesiunea de restanţe, evaluarea proiectelor se va efectua cu aplicarea unei penalizări de **două puncte**.
 * Rezultatele parţiale obţinute anterior (de către studenţii restanţieri) nu sunt luate în consideraţie. Restanţierii din alte generaţii de studenţi vor trebui să refacă disciplina în întregime.
 
+[0]: {{ site.baseurl }}/cursuri/open-source/note
 [Facultatea de Informatică]: https://www.info.uaic.ro/
 [UAIC Iaşi]: https://www.uaic.ro/
 [echipa]: {{ site.baseurl }}/cursuri/open-source/contact
