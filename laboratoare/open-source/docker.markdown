@@ -17,13 +17,13 @@ Pentru acest laborator vom avea nevoie de utilitarul Docker.
 
 Mai întâi vom configura un repository de pachete de unde putem instala utilitarul:
 
-```
+```bash
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
 După care vom instala și porni motorul de containerizare:
 
-```
+```bash
 yum install docker-ce
 systemctl enable docker
 systemctl start docker
@@ -32,8 +32,8 @@ systemctl start docker
 
 Pornirea primului container
 
-```
-[root@node01 ~]# docker run hello-world
+```bash
+[root@node01 ~] $ docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 ca4f61b1923c: Pull complete
@@ -64,31 +64,31 @@ For more examples and ideas, visit:
 
 Pornirea interactivă a unui container și inspectarea acestuia:
 
-```
-[root@node01 ~]# docker run -ti centos
+```bash
+[root@node01 ~] $ docker run -ti centos
 Unable to find image 'centos:latest' locally
 latest: Pulling from library/centos
 5e35d10a3eba: Pull complete
 Digest: sha256:dcbc4e5e7052ea2306eed59563da1fec09196f2ecacbe042acbdcd2b44b05270
 Status: Downloaded newer image for centos:latest
 
-[root@c676b1514c76 /]# ps aux
+[root@c676b1514c76 /] $ ps aux
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         1  0.0  0.1  11776  1884 pts/0    Ss   19:08   0:00 /bin/bash
 root        13  0.0  0.1  47448  1660 pts/0    R+   19:09   0:00 ps aux
 
-[root@node01 ~]# docker ps -a
+[root@node01 ~] $ docker ps -a
 CONTAINER ID        IMAGE               COMMAND             CREATED              STATUS                        PORTS               NAMES
 c676b1514c76        centos              "/bin/bash"         About a minute ago   Exited (127) 19 seconds ago                       cranky_swanson
 99dc9b7dc770        hello-world         "/hello"            3 minutes ago        Exited (0) 3 minutes ago                          competent_lumiere
 
-[root@node01 ~]# docker inspect c676b1514c76
+[root@node01 ~] $ docker inspect c676b1514c76
 ...
 ```
 Descărcarea și inspectarea unei imagini
 
-```
-[root@node01 ~]# docker pull haproxy
+```bash
+[root@node01 ~] $ docker pull haproxy
 Using default tag: latest
 latest: Pulling from library/haproxy
 8176e34d5d92: Pull complete
@@ -97,7 +97,7 @@ a2c5d2ee06f4: Pull complete
 ec8ca0aa4db7: Pull complete
 Digest: sha256:10c2d38f7e69a7c241b2c0559d6601b0683fb96326ae43406b43d30347f6aae9
 Status: Downloaded newer image for haproxy:latest
-
+[root@node01 ~] $ docker image inspect haproxy
 [
     {
         "Id": "sha256:fec0a3082e12293f9d95ba838f24c2aaee60aee4237cf92265d399c9d7805c9d",
@@ -210,7 +210,7 @@ Status: Downloaded newer image for haproxy:latest
 
 ### Pornirea containerului Visualizer
 
-```
+```bash
 docker run -it -d --name visualizer -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer
 ```
 
@@ -225,7 +225,7 @@ Parametrii explicați:
 
 ### Pornirea containerului HAProxy
 
-```
+```bash
 docker run -d --name haproxy -v /docker/volumes/haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg -p=80:80/tcp --link visualizer haproxy
 ```
 
@@ -275,8 +275,8 @@ Procesul de extindere a unei imagini este bazat pe straturi. Un strat reprezint�
 
 Să presupunem urmatorul scenariu:
 
-```
-[root@node01 imagine1]# cat Dockerfile
+```bash
+[root@node01 imagine1] $ cat Dockerfile
 FROM centos:latest
 MAINTAINER gabriel.paiu@gmail.com
 
@@ -287,8 +287,8 @@ Un Dockerfile în care folosim imaginea deja existentă centos:latest, adaugăm 
 
 Ce se întamplă în momentul în care vom construi imaginea?
 
-```
-[root@node01 imagine1]# docker build -t image1 .
+```bash
+[root@node01 imagine1] $ docker build -t image1 .
 Sending build context to Docker daemon  2.048kB
 Step 1/3 : FROM centos:latest
  ---> 2d194b392dd1
@@ -306,8 +306,8 @@ Successfully tagged image1:latest
 
 Observăm ca pentru fiecare instrucțiune specificată, se crează o un container intermediar, ultimul container (ID 8ee3fdf43ef4) reprezentând rezultatul final.
 
-```
-[root@node01 imagine1]# docker image ls | grep 8ee3fdf43ef4
+```bash
+[root@node01 imagine1] $ docker image ls | grep 8ee3fdf43ef4
 image1                     latest              8ee3fdf43ef4        13 minutes ago      196MB
 ```
 
@@ -321,6 +321,6 @@ image1                     latest              8ee3fdf43ef4        13 minutes ag
 
 Sugestii:
 - Instrucțiuni pe care le puteți folosi în cadrul extinderii imaginii alpine: RUN
-- Utilitarul pe care Alpine Linux îl folosește se numește "apk"
+- Utilitarul pe care Alpine Linux îl folosește se numește `apk`
 
 [1]:https://gist.github.com/alexcoman/226af528b4bded9a1db2bbf55803d48c
