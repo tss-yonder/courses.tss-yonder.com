@@ -242,7 +242,7 @@ version: '3.4'
 
 services:
   server:
-    image: node01.dev.lan:5000/app:1.4
+    image: node01.dev.lan:5000/app:1.0
     networks:
       - backend
     deploy:
@@ -374,4 +374,31 @@ Accesarea de pe host a oricărui IP atașat la interfața de rețea Host-Only f�
 		10.0.2.11</p>
 </body>
 [gpaiu@gondor ~]#
+```
+
+### Rolling update
+
+În situația în care există o imagine actualizată a aplicației (i.e app:1.1), vom avea posibilitatea de a efectua actualizări în mers, fară existența unui timp în care aplicația nu va funcționa, și totodată ne va oferi și posibilitatea unui rollback. Acest lucru este făcut de ”docker stack deploy” implicit, și în acleași timp, putem și specifica politica modului de actualizare prin hash-ul ”update_config” în Compose File.
+
+```shell
+[root@node01 compose]# grep "app:1" app.yml
+    image: node01.dev.lan:5000/app:1.1
+```
+
+```shell
+[root@node01 compose]# docker stack deploy -c app.yml app
+Updating service app_visualizer (id: h0ygkbes3uchxjt30i027b0v7)
+Updating service app_proxy (id: 397lcl3puzbewtkj6qzlxyrly)
+Updating service app_server (id: oow11ls6c425r9m7k5n0yi9kt)
+```
+
+```shell
+[root@node01 compose]# docker service ps app_server
+ID                  NAME                IMAGE                         NODE                DESIRED STATE       CURRENT STATE             ERROR               PORTS
+yzeiw0c3lrdt        app_server.1        node01.dev.lan:5000/app:1.1   node02.dev.lan      Running             Running 41 seconds ago
+6rc41hxq1p72         \_ app_server.1    node01.dev.lan:5000/app:1.0   node03.dev.lan      Shutdown            Shutdown 42 seconds ago
+x2wc6dvbfvj8        app_server.2        node01.dev.lan:5000/app:1.1   node02.dev.lan      Running             Running 3 seconds ago
+yz8qnvcgnts7         \_ app_server.2    node01.dev.lan:5000/app:1.0   node02.dev.lan      Shutdown            Shutdown 3 seconds ago
+j3114qxo74sd        app_server.3        node01.dev.lan:5000/app:1.1   node03.dev.lan      Running             Running 22 seconds ago
+9s3dk4lgyx6j         \_ app_server.3    node01.dev.lan:5000/app:1.0   node03.dev.lan      Shutdown            Shutdown 23 seconds ago
 ```
