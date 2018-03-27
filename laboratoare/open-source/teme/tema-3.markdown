@@ -1,6 +1,6 @@
 ---
 title: "Tema - Docker"
-permalink: /laboratoare/open-source/teme/tema-3
+permalink: /laboratoare/open-source/teme/tema-3/
 group: "laboratoare.opensource"
 layout: post
 color: blue
