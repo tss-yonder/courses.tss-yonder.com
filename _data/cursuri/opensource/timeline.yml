@@ -85,3 +85,101 @@
 - type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 4'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../curs-4">Virtualizare</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Virtualizare</li>
+      <li>Gestiunea mașinilor virtuale</li>
+      <li>Containere</li>
+      <li>Cloud</li>
+    </ul>
+
+
+  footer: 'Data: 14 martie 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 5'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../curs-5">Practici de dezvolare software
+, Gestiunea configurărilor, Configurarea environment</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Practici de dezvolare software</li>
+      <li>Continuous integration</li>
+      <li>Continuous delivery</li>
+      <li>Continuous deployment</li>
+      <li>Gestiunea configurărilor</li>
+      <li>Puppet, Chef, Ansible, Salt Stack, CF Engine</li>
+      <li>Configurarea environment-ului</li>
+      <li>Vagrant</li>
+      <li>Docker</li>
+    </ul>
+
+
+  footer: 'Data: 21 martie 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 6'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../curs-6">Recapitulare generală</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>VM networking</li>
+      <li>OS Networking</li>
+      <li>OS Management pachete</li>
+      <li>OS Procese si servicii</li>
+      <li>OS Firewalls</li>
+      <li>Interactiuni prin SSH</li>
+    </ul>
+
+
+  footer: 'Data: 27 martie 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
