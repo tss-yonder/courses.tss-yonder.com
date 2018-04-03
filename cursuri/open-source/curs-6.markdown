@@ -29,9 +29,8 @@ style: |
     #SeeMore h2 {
         font-size:100px
         }
-    img {
-        width:0.72em;
-        height:0.72em;
+    p img {
+        width:100%;
         }
 ---
 
@@ -44,35 +43,39 @@ style: |
 - OS Networking
 - OS Management pachete
 - OS Procese si servicii
-- OS Firewalls
+- OS Firewall
 - Interactiuni prin SSH
 
 ## Recapitulare - VM networking
 https://www.virtualbox.org/manual/ch06.html#networkingmodes
-
-[poza slide 3]
+![vm_network_adapters](/{{ "assets/images/courses/recap_31.png" | prepend: site.baseurl }} ){:height="90%" width="90%"}
 
 ## Recapitulare - VM networking
-[poza slide 4]
+![adapter_diagram](/{{ "assets/images/courses/recap_41.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
 
 ## Recapitulare - OS Networking
 http://linuxtechlab.com/configure-ip-address-rhel-centos/
-[poza slide 5]
+![client_config](/{{ "assets/images/courses/recap_51.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
 
 ## Recapitulare - OS Management pachete
-http://linuxtechlab.com/configure-ip-address-rhel-centos/
-[poza slide 6]
+![yum1](/{{ "assets/images/courses/recap_61.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
+
+## Recapitulare - OS Management pachete
+![yum2](/{{ "assets/images/courses/recap_62.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
 
 ## Recapitulare - OS Management pachete
 https://docs.docker.com/install/linux/docker-ce/centos/#install-using-the-repository
-[poza slide 7]
+![repo_files](/{{ "assets/images/courses/recap_71.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
 
 ## Recapitulare – Procese si servicii
-[poza slude 8]
+![top](/{{ "assets/images/courses/recap_81.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
+
+## Recapitulare – Procese si servicii
+![nestat](/{{ "assets/images/courses/recap_82.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
 
 ## Recapitulare - Firewall
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-firewalld-on-centos-7
-[poza slide 9]
+![firewalld](/{{ "assets/images/courses/recap_91.png" | prepend: site.baseurl }}){:height="90%" width="90%"}
 
 ## Recapitulare – How to SSH
 ssh [remote_host]
