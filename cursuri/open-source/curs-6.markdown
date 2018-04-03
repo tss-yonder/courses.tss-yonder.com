@@ -29,8 +29,9 @@ style: |
     #SeeMore h2 {
         font-size:100px
         }
-    p img {
-        width:100%;
+    img {
+        width:0.72em;
+        height:0.72em;
         }
 ---
 
