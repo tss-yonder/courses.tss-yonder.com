@@ -52,10 +52,6 @@
   footer: >
     <a href="teme/tema-2">Temă acasă</a> | Termen limită: săptămâna 5
 
-- type: 'label'
-  class: 'primary'
-  content: 'săptămâna curentă'
-
 - type: 'event'
   class: 'primary'
   point:
@@ -67,6 +63,22 @@
     docker swarm, servicii, stack-uri, docker-compose
   footer: >
     <a href="teme/tema-3">Temă acasă</a> | Termen limită: săptămâna 6
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna curentă'
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-gitlab'
+  heading: 'Laborator: <a href="gitlab_ci">GitLab CI</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    gitlab, CI, testare, CI flow
+  footer: >
+    <a href="teme/tema-4">Temă acasă</a> | Termen limită: săptămâna 10
 
 - type: 'label'
   class: 'danger'
