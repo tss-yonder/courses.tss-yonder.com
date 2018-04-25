@@ -183,3 +183,34 @@
 - type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 9'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../curs-9">Artefact, CI, testare</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Artefact software</li>
+      <li>Recapitulare CI</li>
+      <li>Test case VS test scenario</li>
+      <li>Unit test, Integration test, smoke test, regression test</li>
+      <li>Acceptance test</li>
+    </ul>
+
+
+  footer: 'Data: 25 aprilie 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
