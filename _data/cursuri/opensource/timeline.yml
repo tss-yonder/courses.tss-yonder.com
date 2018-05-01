@@ -214,3 +214,50 @@
 - type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 10'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../curs-10">Proiect MLMOS</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Vom prezenta propunerea de proiect MLMOS si vom detalia cerintele</li>
+    </ul>
+
+
+  footer: 'Data: 2 mai 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
+
+- type: 'label'
+  class: 'success'
+  icon: 'fas fa-play'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 11'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+
+  footer: 'Data: 9 mai 2018'
+
+- type: 'label'
+  class: 'danger'
+  icon: 'fas fa-stop'
