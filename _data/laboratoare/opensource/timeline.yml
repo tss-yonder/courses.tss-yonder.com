@@ -64,10 +64,6 @@
   footer: >
     <a href="teme/tema-3">Temă acasă</a> | Termen limită: săptămâna 6
 
-- type: 'label'
-  class: 'primary'
-  content: 'săptămâna curentă'
-
 - type: 'event'
   class: 'primary'
   point:
@@ -79,6 +75,22 @@
     gitlab, CI, testare, CI flow
   footer: >
     <a href="teme/tema-4">Temă acasă</a> | Termen limită: săptămâna 10
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna curentă'
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-product-hunt'
+  heading: 'Laborator: <a href="proiect_mlmos">Proiect MLMOS</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    Vom prezenta propunerea de proiect MLMOS si vom detalia cerintele
+  footer: >
+    <a href="teme/proiect-mlmos">Proiect MLMOS</a> | Termen limită: săptămâna 14
 
 - type: 'label'
   class: 'danger'
