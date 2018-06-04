@@ -1,0 +1,35 @@
+- title: 'Referitor la materie'
+  intro: ''
+  cards:
+    - title: 'Reguli'
+      intro: 'regulament intern'
+      color: 'pink'
+      icon:  'fas fa-fire'
+      url: '/vnso/reguli/'
+
+    - title: 'Examinare'
+      intro: 'aspecte privind evaluarea'
+      color: 'primary'
+      icon:  'fab fa-qq'
+      url: '/vnso/evaluare/'
+
+- title: 'Alte resurse'
+  intro: ''
+  cards:
+    - title: 'Resurse'
+      intro: 'diverse resurse ce completează informațiile din cadrul laboratoarelor'
+      color: 'green'
+      icon:  'fas fa-rss'
+      url: '/resurse'
+
+    - title: 'FAQs'
+      intro: 'întrebări comune referitoare la cursuri și laboratoare'
+      color: 'purple'
+      icon:  'fas fa-question'
+      url: '/faqs'
+
+    - title: 'Contact'
+      intro: 'modalități de contact'
+      color: 'orange'
+      icon: 'fas fa-address-card'
+      url: '/vnso/contact'

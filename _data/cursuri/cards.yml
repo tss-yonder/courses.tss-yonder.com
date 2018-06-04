@@ -1,8 +1,0 @@
-- title: 'Cursuri susținute de TSS-Yonder'
-  intro: ''
-  cards:
-    - title: 'Open-Source'
-      intro: 'tehnologii, proiecte și comunități deschise'
-      color: 'pink'
-      icon:  'fas fa-laptop'
-      url: '/cursuri/open-source'
