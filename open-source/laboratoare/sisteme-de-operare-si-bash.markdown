@@ -5,7 +5,7 @@ group: 'open-source'
 layout: post
 color: pink
 icon: fab fa-osi
-date: 2018-02-17 12:00:00
+date: 2019-02-18 12:00:00
 author: "Gabriel Paiu"
 excerpt_separator: <!--more-->
 ---
@@ -14,6 +14,16 @@ excerpt_separator: <!--more-->
 
 Pentru laboratorul curent o să aveți nevoie de o mașină virtuală cu Centos 7.
 În cazul în care întâmpinați probleme în instalarea sistemului de operare puteți consulta următorul articol [Instalarea sistemului de operare CentOS 7][1].
+
+## Partea 1
+
+Vom configura o maşină virtuală cu CentOS7 (cerinte minime CPU, memorie, disk).  
+Vom face configurarea necesară în această maşină virtuală pentru a putea accesa prin SSH consola (de văzut tipurile de network adapters pe VM).  
+Vom folosi aplicaţia [Putty](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe)
+
+După ce vom avea o maşină virtuală functională putem continua cu următoarele noţiuni introductive.
+
+## Partea 2
 
 ## Recapitulare notiuni de Bash
 
