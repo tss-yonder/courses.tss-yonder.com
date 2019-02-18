@@ -7,12 +7,6 @@
       icon:  'fab fa-osi'
       url: '/open-source/'
 
-    - title: 'Virtualizare la Nivelul Sistemului de Operare'
-      intro: ''
-      color: 'blue'
-      icon:  'fab fa-docker'
-      url: '/vnso/'
-
 - title: 'Resurse utile'
   intro: ''
   cards:
