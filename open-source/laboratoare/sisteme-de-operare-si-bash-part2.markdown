@@ -1,6 +1,6 @@
 ---
 title: "Sisteme de operare și Bash"
-permalink: /open-source/laboratoare/sisteme-de-operare-si-bash/
+permalink: /open-source/laboratoare/sisteme-de-operare-si-bash-part2/
 group: 'open-source'
 layout: post
 color: pink
@@ -12,16 +12,10 @@ excerpt_separator: <!--more-->
 
 ## Pregatirea mediului de lucru
 
-Pentru laboratorul curent o să aveți nevoie de o mașină virtuală cu Centos 7.
-În cazul în care întâmpinați probleme în instalarea sistemului de operare puteți consulta următorul articol [Instalarea sistemului de operare CentOS 7][1].
-
-## Partea 1
-
-Vom configura o maşină virtuală cu CentOS7 (cerinte minime CPU, memorie, disk).  
-Vom face configurarea necesară în această maşină virtuală pentru a putea accesa prin SSH consola (de văzut tipurile de network adapters pe VM).  
-Vom folosi aplicaţia [Putty](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe)
-
-După ce vom avea o maşină virtuală functională putem continua cu următoarele noţiuni introductive.
+Pentru laboratorul curent o să aveți nevoie de o mașină virtuală cu Centos 7.  
+În cazul în care întâmpinați probleme în instalarea sistemului de operare puteți consulta următorul articol [Instalarea sistemului de operare CentOS 7][1].  
+În prima săptămână am lucrat la configurarea maşinii virtuale.  
+Vom continua cu exerciţiile propuse, după care vă încurajăm sa intraţi şi să verificaţi cerintele <a href="../../teme/tema-1">temei nr1</a>.  
 
 ## Partea 2
 
@@ -65,17 +59,12 @@ Gestionare va consta in:
 
 ### Tema
 
-Pregătiți-vă spațiul de lucru conform planului descris în laborator. În plus, veți scrie un ”bootstrap” pentru mașina virtuală care va primi argumente și va realiza următoarele:
-- va efectua actualizări pentru programele de sistem existente
-- va instala pachetul git
-- va configura static adaptorul de rețea de tip host-only
-- va configura procesul de SSH astfel încât autentificarea pe bază de parolă nu va mai putea fi efectuată, în schimb, veți putea folosi chei de tip RSA, pe care o veți și instala
-- va reține datele de ieșire și mesajele de eroare în fișierul /var/log/system-bootstrap.log
-- inspectează fișierul /etc/selinux/config și se asigură că parametrul ”SELINUX=” este ”disabled” după care va lansa comanda "setenforce 0"
-- scriptul de bootstrap trebuie să fie idempotent
-
-Sugestii:
-- comenzi utile pe care le puteți folosi: nmcli (Network Manager CLI), sed, yum
+Pentru pregătirea temei de laborator nr 1, va propunem sa începeţi să treceţi prin următorii paşi.
+- Începem cu pregătirea unui cont de Github, dacă nu aveţi deja
+- Să vă instalaţi aplicaţia "git" pe maşina virtuală
+- Să vă conectaţi prin aplicaţia "git" la contul vostru de Github şi să faceţi primul commit in repository cu un fişier de test
+- Să faceţi o modificare pe fişierul de test (preferabil din interfaţa web) şi să vedeţi cum se poate actualiza pe VM fişierul cu ultimele modificări din repository
+- Să începeţi să lucraţi la scriptul "bootstrap.sh" 
 
 [1]: {{ site.baseurl }}/resurse/tutorial/virtualbox/instalare-centos-7/
 [2]: {{ site.baseurl }}/resurse/tutorial/sisteme-operare/notiuni-introductive-in-bash/
