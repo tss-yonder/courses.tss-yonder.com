@@ -34,5 +34,37 @@
     introducere în limbajul Bash.
 
 - type: 'label'
+  class: 'primary'
+  content: 'săptămâna 2'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/2">Linux - aspecte generale și istoric</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Freeware vs Free software</li>
+      <li>Giganţii din industrie</li>
+      <li>Linux</li>
+      <li>Componente de bază</li>
+    </ul>
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-github'
+  heading: 'Laborator: <a href="../laboratoare/sisteme-de-operare-si-bash-part2">Sisteme de operare și Bash - Part 2</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    noțiuni de sisteme de operare (procese, servicii, package, gestiunea utilizatorilor, gestiunea discurilor),
+    noțiuni generale de rețelistică,
+    introducere în limbajul Bash.
+  footer: '<a href="../teme/tema-1">Temă acasă</a> | Termen limită: săptămâna 4'
+
+- type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'

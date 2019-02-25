@@ -5,12 +5,18 @@
     electronică -- mesajul trimis trebuie să aibă ca subiect [Open-Source]
     (în caz contrar, mesajul va fi ignorat).
   members:
-    - name: "Dragoș Dimitriu (curs)"
-      email: "dragos.dimitriu@tss-yonder.com"
+    - name: "Alexandru Asofroniei (laborator)"
+      email: "alexandru.asofroniei@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
-          url: "https://github.com/dragos0"
+          url: "https://github.com/aso930"
+
+    - name: "Matei Micu (laborator)"
+      social:
+        - title: "Pagina de GitHub"
+          icon: "fab fa-github"
+          url: "https://github.com/mateimicu"
 
     - name: "Andrei Sahaidac (curs)"
       email: "andrei.sahaidac@tss-yonder.com"
@@ -22,7 +28,7 @@
           icon: "fab fa-linkedin"
           url: "https://www.linkedin.com/in/andrei-sahaidac-2a098490/"
 
-    - name: "Alexandru Coman (laborator)"
+    - name: "Alexandru Coman"
       email: "alexandru.coman@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
@@ -35,7 +41,7 @@
           icon: "fas fa-anchor"
           url: "https://alexcoman.com/"
     
-    - name: "Gabriel Paiu (laborator)"
+    - name: "Gabriel Paiu"
       email: "gabriel.paiu@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
@@ -44,3 +50,10 @@
         - title: "Profilul tehnic"
           icon: "fab fa-linkedin"
           url: "https://www.linkedin.com/in/gabrielpaiu/"
+
+    - name: "Dragoș Dimitriu"
+      email: "dragos.dimitriu@tss-yonder.com"
+      social:
+        - title: "Pagina de GitHub"
+          icon: "fab fa-github"
+          url: "https://github.com/dragos0"
