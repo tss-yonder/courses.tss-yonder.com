@@ -66,5 +66,35 @@
   footer: '<a href="../teme/tema-1">Temă acasă</a> | Termen limită: săptămâna 4'
 
 - type: 'label'
+  class: 'primary'
+  content: 'săptămâna 3'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/3">Sisteme de versionare</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>Versionarea produselor software</li>
+      <li>Sisteme de control al versiunilor</li>
+      <li>CVS, SVN, Git, Mercurial</li>
+      <li>Git - ghid de bune practici</li>
+    </ul>
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-github'
+  heading: 'Laborator: <a href="../laboratoare/git">Git</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    Introducere în Git, versionare, commit, branching, etc
+  footer: '<a href="../teme/tema-1">Temă acasă</a> | REMINDER - Termen limită: săptămâna 4!'
+
+- type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'

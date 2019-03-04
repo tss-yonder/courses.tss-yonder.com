@@ -5,7 +5,7 @@ group: 'open-source'
 layout: post
 color: pink
 icon: fab fa-osi
-date: 2018-03-06 12:00:00
+date: 2019-03-04 12:00:00
 author: "Alexandru Coman"
 excerpt_separator: <!--more-->
 ---
@@ -38,7 +38,14 @@ La următoarea adresă [try.github.io][5] aveți la dispoziție un scurt tutoria
 
 ### git branch
 
-Pentru a evidenția mai bine situațiile pe care le puteți întâlni în momentul în care contribuiți la un proiect ce folosește ca sistem de versionare a codului utilitarul [git][1] aveți la dispoziție tutorialul interactiv [learngitbranching.js.org][6].
+Pentru laborator vă invităm să încercaţi să parcurgeţi primele 4 nivele introductive din tutorialul interactiv [learngitbranching.js.org][6]. Acest tutorial interactiv vă poate ajuta să vizualizaţi mai bine acţiunile şi parcursul logic al unul repository git.  
+
+- Primul nivel va prezenta mai detaliat acţiunea de git [commit](https://guides.github.com/introduction/git-handbook/#basic-git)  
+- Al doilea nivel ne va prezenta conceptul de git [branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)  
+- Al treilea nivel va intra în detaliu pentru a ne prezenta cum putem combina mai multe surse de date într-o structure comună prin git [merge](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)  
+- Al patrulea nivel ne va familiariza cu un concept puţin mai dificil, dar util in momentele în care vrem să ne suprascriem parcursul local de git cu dintr-o sursă externă - git [rebase](https://git-scm.com/docs/git-rebase)  
+
+Va recomandăm să incercaţi sa parcurgeţi aceste prime nivele pentru a vă familiariza cu 
 
 
 [0]: {{ site.baseurl }}/resurse/tutorial/git/notiuni-introductive/#instalarea-și-configurarea-github-for-windows
