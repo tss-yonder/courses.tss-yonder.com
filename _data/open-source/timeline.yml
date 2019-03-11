@@ -96,5 +96,33 @@
   footer: '<a href="../teme/tema-1">Temă acasă</a> | REMINDER - Termen limită: săptămâna 4!'
 
 - type: 'label'
+  class: 'primary'
+  content: 'săptămâna 4'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/4">Virtualizare</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li> Virtualizare </li>
+      <li> Gestiunea mașinilor virtuale </li>
+      <li> Containere </li>
+      <li> Cloud </li>
+    </ul>
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fas fa-hashtag'
+  heading: 'Laborator: Verificare temă nr. 1'
+  body: >
+    În acest laborator vom verifica prima temă de laborator si vom aborda orice întrebare sau nelămurire din această tema
+
+- type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
