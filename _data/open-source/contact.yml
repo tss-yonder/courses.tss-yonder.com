@@ -13,6 +13,7 @@
           url: "https://github.com/aso930"
 
     - name: "Matei Micu (laborator)"
+      email: "contact@mateimicu.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
