@@ -7,7 +7,7 @@ color: blue
 icon: fas fa-laptop
 highlight: true
 author: "Alexandru Coman"
-date: 2018-03-15 12:00:00
+date: 2019-03-18 12:00:00
 ---
 
 ## Consultarea resurselor
@@ -38,7 +38,9 @@ Pentru a începe lucrul la temă o să aveți nevoie de următoarele resurse:
 
 Ne dorim să oferim posibilitatea pasionaților de jocuri vechi -- în linia de comandă, de exemplu [Hunt the Wumpus][15] -- să poată juca unul dintre aceste jocuri într-un browser.
 
-În acest scop va trebui să pregătiți o imagine de docker care să conțină un server web care să expună jocul ales de voi. 
+În acest scop va trebui să pregătiți o imagine de docker care să conțină un server web care să expună jocul ales de voi.  
+ 
+<b>Vă recomandăm</b> să folosiţi resursele menţionate mai jos pentru a vă ajuta în dezvoltarea soluţiei cerute - o imagine de docker care să conțină un server web care să expună jocul ales de voi.
 
 ### Resurse utile: 
 
