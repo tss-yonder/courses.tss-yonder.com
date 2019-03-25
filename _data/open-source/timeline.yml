@@ -161,5 +161,38 @@
     <a href="../teme/tema-2">Temă acasă</a> | Termen limită: săptămâna 7
 
 - type: 'label'
+  class: 'primary'
+  content: 'săptămâna 6'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/6">Recapitulare şi exerciţii</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    <ul>
+      <li>VM networking</li>
+      <li>OS Networking</li>
+      <li>OS Management pachete</li>
+      <li>OS Procese si servicii</li>
+      <li>OS Firewalls</li>
+      <li>Interactiuni prin SSH</li>
+    </ul>
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Laborator: <a href="../laboratoare/multistage_build">Docker build</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    exercitii cu Docker
+  footer: >
+    <a href="../teme/tema-2">Temă acasă</a> | REMINDER - Termen limită: săptămâna 7
+
+- type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
