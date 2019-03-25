@@ -75,7 +75,7 @@ Creati o imagine folosind multistage build pentru aplicatia de aici: [simple-go-
 Pasii pentru a putea compila si rula aplicatia sunt urmatorii:
  - Folositi o imagine oficiala cu Golang
  - Descarcati dependintele folosind: `go get github.com/gorilla/mux`
- - Compilati aplicatia folosind: `go get main.go`
+ - Compilati aplicatia folosind: `go build main.go`
 
 
 ## Referinte
