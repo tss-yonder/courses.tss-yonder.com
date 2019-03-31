@@ -43,4 +43,4 @@ Alte aspecte de interes sunt:
 [0]: https://docs.google.com/spreadsheets/d/1199HWfvaNulNPQkb7yx3Q8iGuwGrGb3wozQmrLcb4vI/edit?usp=sharing
 [Facultatea de Informatică]: https://www.info.uaic.ro/
 [UAIC Iaşi]: https://www.uaic.ro/
-[echipa]: {{ site.baseurl }}/cursuri/open-source/contact
+[echipa]: {{ site.baseurl }}/open-source/contact

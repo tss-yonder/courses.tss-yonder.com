@@ -3,20 +3,21 @@
     Toate materialele disponibile în cadrul acestui site au fost
     pregătite cu drag de către colegii noștrii.
   members:
-    - name: "Alexandru Asofroniei"
+    - name: "Alexandru Asofroniei (laborator)"
       email: "alexandru.asofroniei@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
           url: "https://github.com/aso930"
 
-    - name: "Matei Micu"
+    - name: "Matei Micu (laborator)"
+      email: "contact@mateimicu.com"
       social:
         - title: "Pagina de GitHub"
           icon: "fab fa-github"
           url: "https://github.com/mateimicu"
 
-    - name: "Andrei Sahaidac"
+    - name: "Andrei Sahaidac (curs)"
       email: "andrei.sahaidac@tss-yonder.com"
       social:
         - title: "Pagina de GitHub"
