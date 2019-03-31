@@ -24,6 +24,10 @@ Evaluarea la această disciplină va consta din următoarele componente facultat
 
 Punctajul final este calculat astfel: **PF** = Sum(**TC**) * 0.2 + Average(**TL**) * 0.4 + **P** * 0.5.
 
+## An universitar 2018 - 2019
+Rezultatele pot fi consultate la următoarea [adresă][1].
+
+## An universitar 2017 - 2018  
 Rezultatele pot fi consultate la următoarea [adresă][0].
 
 ## Precizări importante
@@ -40,6 +44,7 @@ Alte aspecte de interes sunt:
 * În sesiunea de restanţe, evaluarea proiectelor se va efectua cu aplicarea unei penalizări de **două puncte**.
 * Rezultatele parţiale obţinute anterior (de către studenţii restanţieri) nu sunt luate în consideraţie. Restanţierii din alte generaţii de studenţi vor trebui să refacă disciplina în întregime.
 
+[1]: https://docs.google.com/spreadsheets/d/1rx1_0oygoIYYWc0BiIngtUfqCmoNZu-h3Q4WnIZLSJo/edit?usp=sharing
 [0]: https://docs.google.com/spreadsheets/d/1199HWfvaNulNPQkb7yx3Q8iGuwGrGb3wozQmrLcb4vI/edit?usp=sharing
 [Facultatea de Informatică]: https://www.info.uaic.ro/
 [UAIC Iaşi]: https://www.uaic.ro/
