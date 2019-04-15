@@ -1,6 +1,6 @@
 ---
 title: "Tema - GitLab CI"
-permalink: /open-source/teme/tema-4/
+permalink: /open-source/teme/tema-3/
 group: "open-source"
 layout: post
 color: blue

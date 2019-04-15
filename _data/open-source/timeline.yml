@@ -232,6 +232,13 @@
     icon: 'fas fa-book'
   heading: 'Spor la parţiale! Noi facem o pauză.</a>'
 
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Spor la parţiale! Noi facem o pauză.</a>'
+
 - type: 'label'
   class: 'primary'
   content: 'săptămâna 9'
