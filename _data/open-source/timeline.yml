@@ -257,7 +257,7 @@
   point:
     class: 'info'
     icon: 'fab fa-docker'
-  heading: 'Laborator: <a href="../laboratoare/docker_swarm">Docker swarm şi Gitlab</a>'
+  heading: 'Laborator: <a href="../laboratoare/swarm">Docker swarm şi Gitlab</a>'
   body: >
     Subiecte abordate în cadrul acestui laborator:
     configurarea şi implementarea unui Docker Swarm

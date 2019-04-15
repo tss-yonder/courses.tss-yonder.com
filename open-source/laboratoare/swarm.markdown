@@ -1,6 +1,6 @@
 ---
 title: "Docker Swarm"
-permalink: /open-source/laboratoare/docker-swarm/
+permalink: /open-source/laboratoare/swarm/
 group: 'open-source'
 layout: post
 color: pink
