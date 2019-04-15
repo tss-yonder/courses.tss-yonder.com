@@ -26,4 +26,7 @@ Sugestii:
 - Pentru clarificări sau întrebări, contactaţi pe email colaboratorii MLMOS - [detalii contact](https://courses.tss-yonder.com/echipa/)
 
 Vă recomandăm să folosiţi paginile de documentaţie ale produselor cu care veţi lucra !  
-Termen limita - laborator Saptamana 14
+Se poate lucra şi prezenta tema în echipe de câte 2 persoane maxim, cu menţiunea ca fiecare membru să îşi prezinte contribuţia.  
+Termen limita - laborator Saptamana 14  
+
+Pentru a beneficia în cadrul materiei MLMOS de bonusul pentru contribuţii în mediul Open-Source, vă rugăm sa prezentaţi contribuţiile, după prezentarea proiectului. Prezentarea contribuţiei Open Source trebuie sa prezinte scopul proiectului, un caz concret de un bug/feature şi ce paşi/acţiuni s-au luat în commitul ce va fi prezentat.
