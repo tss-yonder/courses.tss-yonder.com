@@ -194,5 +194,79 @@
     <a href="../teme/tema-2">Temă acasă</a> | REMINDER - Termen limită: săptămâna 7
 
 - type: 'label'
+  class: 'primary'
+  content: 'săptămâna 7'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/7">Continuous integration şi testare</a>'
+  body: >
+    O parte dintre aspectele abordate în cadrul cursului:
+    Artefact software
+    Recapitulare CI
+    Test case VS test scenario
+    Unit test, Integration test, smoke test, regression test
+    Stress test, Acceptance test
+
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Laborator: Verificare temă nr. 2'
+  body: >
+    În acest laborator vom verifica a doua temă de laborator si vom aborda orice întrebare sau nelămurire din această tema
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 8'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Spor la parţiale! Noi facem o pauză.</a>'
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Spor la parţiale! Noi facem o pauză.</a>'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 9'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/7">Continuous integration şi testare</a>'
+  body: >
+    Va urma
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Laborator: <a href="../laboratoare/docker_swarm">Docker swarm şi Gitlab</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    configurarea şi implementarea unui Docker Swarm
+  footer: >
+    <ul>
+      <li><a href="../teme/tema-3">Temă acasă</a> | REMINDER - Termen limită: săptămâna 11</li>
+      <li><a href="../teme/proiect-mlmos">Prezentare temă proiect</a> | REMINDER - Termen limită: săptămâna 14</li>
+    </ul>
+
+- type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'

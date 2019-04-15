@@ -1,13 +1,13 @@
 ---
 title: "Tema - GitLab CI"
-permalink: /open-source/teme/tema-3/
+permalink: /open-source/teme/tema-4/
 group: "open-source"
 layout: post
 color: blue
 icon: fas fa-gitlab
 highlight: true
 author: "Andrei Sahaidac"
-date: 2019-04-08 12:00:00
+date: 2018-04-24 12:00:00
 ---
 
 ## Subiect
@@ -26,4 +26,4 @@ Scopul acestei teme este să integrăm conceptele de containerizare, cu versiona
 
 
 Tema va fi evaluata pe fiecare necesitate mentionata mai sus.  
-Termen limita - laborator Saptamana 12!
+Termen limita - laborator Saptamana 10
