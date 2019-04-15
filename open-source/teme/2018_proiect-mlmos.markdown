@@ -7,7 +7,7 @@ color: blue
 icon: fas fa-gitlab
 highlight: true
 author: "Andrei Sahaidac"
-date: 2019-04-08 12:00:00
+date: 2018-05-02 12:00:00
 ---
 
 ## Cerinte proiect MLMOS
@@ -18,12 +18,11 @@ Cerinţe:
 - să se implementeze o instanţă de GitLab, rulată într-un container Docker
 - să se implementeze un Docker Swarm
 - să se creeze o metodă automată prin care se poate face build, release şi deploy al aplicaţie voastre, în mod automat din GiLab spre Docker Swarm
-- să se creeze o logică de CI prin care să aplicăm cel puţin un test pe artefactul construit - testul aplicat este la alegerea voastră (se poate folosi şi syntax check - linter)
+- să se creeze o logică de separare environment de dezvoltare şi producţie in Docker Swarm, în funcţie de branch-ul pe care lucrăm în GitLab şi destinaţia în care vrem să facem release (vrem să putem controla locaţia din swarm care va rula aplicaţia, în funcţie de branch-ul de pe care s-a făcut release)
 
 
 Sugestii:
-- Puteţi folosi rezultatul obţinut de la Tema 3 - implementare Gitlab
+- Puteţi folosi rezultatul obţinut de la Tema 4 - implementare CI
 - Pentru clarificări sau întrebări, contactaţi pe email colaboratorii MLMOS - [detalii contact](https://courses.tss-yonder.com/echipa/)
 
-Vă recomandăm să folosiţi paginile de documentaţie ale produselor cu care veţi lucra !  
-Termen limita - laborator Saptamana 14
+Vă recomandăm să folosiţi paginile de documentaţie ale produselor cu care veţi lucra !
