@@ -25,5 +25,6 @@ Scopul acestei teme este să integrăm conceptele de containerizare, cu versiona
 4. Configurarea unui Docker Swarm care sa ruleze containerele mentionate la punctele anterioare (să se facă serviciile care vor rula GitLab server şi GitLab runner)  
 
 
-Tema va fi evaluata pe fiecare necesitate mentionata mai sus.  
+Tema va fi evaluata pe fiecare necesitate mentionata mai sus.    
+Se poate lucra şi prezenta tema în echipe de câte 2 persoane maxim, cu menţiunea ca fiecare membru să îşi prezinte contribuţia.  
 Termen limita - laborator Saptamana 12!
