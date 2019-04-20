@@ -248,7 +248,75 @@
   point:
     class: 'black'
     icon: 'fas fa-book'
-  heading: 'Curs: <a href="../cursuri/7">Continuous integration şi testare</a>'
+  heading: 'Curs: <a href="../cursuri/7">Resursele cloud, sisteme si metrici de monitorizare</a>'
+  body: >
+    Va urma
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon  : 'fab fa-docker'
+  heading: 'Laborator: <a href="../laboratoare/swarm">Docker swarm şi Gitlab</a>'
+  body: >
+    Subiecte abordate în cadrul acestui laborator:
+    configurarea şi implementarea unui Docker Swarm
+  footer: >
+    <ul>
+      <li><a href="../teme/tema-3">Temă acasă</a> | REMINDER - Termen limită de prezentare : săptămâna 12</li>
+      <li><a href="../teme/proiect-mlmos">Prezentare temă proiect</a> | REMINDER - Termen limită: săptămâna 14</li>
+    </ul>
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 10'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/7">Săptămână de pauză</a>'
+  body: >
+    Vom face o pauză în această săptămână, vă urăm spor la tema 3/proiect/săptămâna de vacanţă!
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Vom face o pauză în această săptămână.</a>'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 11'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/7">Săptămână de vacanţă</a>'
+  body: >
+    Vom face o pauză în această săptămână, vă urăm spor la tema 3/proiect/săptămâna de vacanţă!
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Vom face o pauză în această săptămână.</a>'
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 12'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/7">Va urma</a>'
   body: >
     Va urma
 
@@ -257,15 +325,10 @@
   point:
     class: 'info'
     icon: 'fab fa-docker'
-  heading: 'Laborator: <a href="../laboratoare/swarm">Docker swarm şi Gitlab</a>'
+  heading: 'Laborator: Verificare temă nr. 3'
   body: >
-    Subiecte abordate în cadrul acestui laborator:
-    configurarea şi implementarea unui Docker Swarm
-  footer: >
-    <ul>
-      <li><a href="../teme/tema-3">Temă acasă</a> | REMINDER - Termen limită: săptămâna 11</li>
-      <li><a href="../teme/proiect-mlmos">Prezentare temă proiect</a> | REMINDER - Termen limită: săptămâna 14</li>
-    </ul>
+    În acest laborator vom verifica a treia temă de laborator si vom aborda orice întrebare sau nelămurire din această tema
+
 
 - type: 'label'
   class: 'danger'

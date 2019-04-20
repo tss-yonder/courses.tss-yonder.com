@@ -27,4 +27,4 @@ Scopul acestei teme este să integrăm conceptele de containerizare, cu versiona
 
 Tema va fi evaluata pe fiecare necesitate mentionata mai sus.    
 Se poate lucra şi prezenta tema în echipe de câte 2 persoane maxim, cu menţiunea ca fiecare membru să îşi prezinte contribuţia.  
-Termen limita - laborator Saptamana 12!
+Termen limita - laborator Saptamana 11!
