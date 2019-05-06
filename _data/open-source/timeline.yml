@@ -309,7 +309,31 @@
 
 - type: 'label'
   class: 'primary'
-  content: 'săptămâna 12'
+  content: 'săptămâna 11.v2 - 06.05 - 12.05'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: va urma</a>'
+  body: >
+    Din cauza unei greşeli de numărare, am inclus iniţial şi săptămâna de vacanţă de Paşte în termenul de predare pentru Tema 3.<br>
+    După consultarea <a href="https://www.info.uaic.ro/academicyear1819/">structurii anului universitar în curs</a> am corectat această greşeală.
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Vom analiza cerinţele <a href="../teme/tema-3">temei nr.3</a> si vom răspunde la întrebări.</a>'
+  body: >
+    Din cauza unei greşeli de numărare, am inclus iniţial şi săptămâna de vacanţă de Paşte în termenul de predare pentru Tema 3.<br>
+    După consultarea <a href="https://www.info.uaic.ro/academicyear1819/">structurii anului universitar în curs</a> am corectat această greşeală.
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 12 - 13.05 - 19.05'
 
 - type: 'event'
   class: 'info'
@@ -325,11 +349,54 @@
   point:
     class: 'info'
     icon: 'fab fa-docker'
-  heading: 'Laborator: Verificare temă nr. 3'
+  heading: 'Laborator: Verificare <a href="../teme/tema-3">temă nr.3</a>'
   body: >
-    În acest laborator vom verifica a treia temă de laborator si vom aborda orice întrebare sau nelămurire din această tema
+    În acest laborator vom verifica <a href="../teme/tema-3">a 3-a temă</a> de laborator si vom aborda orice întrebare sau nelămurire din această tema
 
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 13 - 20.05 - 26.05'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/7">Va urma</a>'
+  body: >
+    Va urma
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Laborator: va urma'
+  body: >
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 14 - 27.05 - 02.06'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Curs: <a href="../cursuri/7">Va urma</a>'
+  body: >
+    Va urma
+
+- type: 'event'
+  class: 'primary'
+  point:
+    class: 'info'
+    icon: 'fab fa-docker'
+  heading: 'Laborator: prezentare proiect'
+  body: >
+    Prezentare proiect
 
 - type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
+
