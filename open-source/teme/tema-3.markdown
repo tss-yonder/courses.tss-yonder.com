@@ -28,3 +28,6 @@ Scopul acestei teme este să integrăm conceptele de containerizare, cu versiona
 Tema va fi evaluata pe fiecare necesitate mentionata mai sus.    
 Se poate lucra şi prezenta tema în echipe de câte 2 persoane maxim, cu menţiunea ca fiecare membru să îşi prezinte contribuţia.  
 Termen limita - laborator Saptamana 12 - 13.05.2019 - 19.05.2019!
+
+Vă recomandăm să verificaţi informaţiile prezentate în laboratorul 9 - <a href="../laboratoare/swarm">Docker swarm şi Gitlab</a>  
+Veţi găsi foarte multe informaţii utile pentru rezolvarea temei.
