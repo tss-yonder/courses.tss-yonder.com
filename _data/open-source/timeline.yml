@@ -319,7 +319,8 @@
   heading: 'Curs: va urma</a>'
   body: >
     Din cauza unei greşeli de numărare, am inclus iniţial şi săptămâna de vacanţă de Paşte în termenul de predare pentru Tema 3.<br>
-    După consultarea <a href="https://www.info.uaic.ro/academicyear1819/">structurii anului universitar în curs</a> am corectat această greşeală.
+    După consultarea <a href="https://www.info.uaic.ro/academicyear1819/">structurii anului universitar în curs</a> am corectat această greşeală. <br>
+    Am discutat despre cerinţele temei nr.3 si ale proiectului final.
 
 - type: 'event'
   class: 'primary'
@@ -329,7 +330,8 @@
   heading: 'Vom analiza cerinţele <a href="../teme/tema-3">temei nr.3</a> si vom răspunde la întrebări.</a>'
   body: >
     Din cauza unei greşeli de numărare, am inclus iniţial şi săptămâna de vacanţă de Paşte în termenul de predare pentru Tema 3.<br>
-    După consultarea <a href="https://www.info.uaic.ro/academicyear1819/">structurii anului universitar în curs</a> am corectat această greşeală.
+    După consultarea <a href="https://www.info.uaic.ro/academicyear1819/">structurii anului universitar în curs</a> am corectat această greşeală. <br>
+    Am discutat despre cerinţele temei nr.3 si ale proiectului final.
 
 - type: 'label'
   class: 'primary'
@@ -340,9 +342,9 @@
   point:
     class: 'black'
     icon: 'fas fa-book'
-  heading: 'Curs: <a href="../cursuri/7">Va urma</a>'
+  heading: 'Curs: Pauză</a>'
   body: >
-    Va urma
+    Vom face o pauză la curs în această săptămână, vă lăsăm să lucraţi la proiect şi la restul activităţilor de final de semestru.
 
 - type: 'event'
   class: 'primary'
@@ -362,9 +364,9 @@
   point:
     class: 'black'
     icon: 'fas fa-book'
-  heading: 'Curs: <a href="../cursuri/7">Va urma</a>'
+  heading: 'Curs: Pauză'
   body: >
-    Va urma
+    Vom face o pauză la cursul din această săptămână, vă lăsăm să lucraţi la proiect şi la restul activităţilor de final de semestru.
 
 - type: 'event'
   class: 'primary'
@@ -373,6 +375,7 @@
     icon: 'fab fa-docker'
   heading: 'Laborator: va urma'
   body: >
+    Vom face o pauză în laboratoarele din această săptămână, vă lăsăm să lucraţi la proiect şi la restul activităţilor de final de semestru.
 
 - type: 'label'
   class: 'primary'
@@ -383,9 +386,9 @@
   point:
     class: 'black'
     icon: 'fas fa-book'
-  heading: 'Curs: <a href="../cursuri/7">Va urma</a>'
+  heading: 'Curs final de materie - discuţie liberă'
   body: >
-    Va urma
+    Vom face o ultima discuţie.
 
 - type: 'event'
   class: 'primary'
@@ -394,7 +397,7 @@
     icon: 'fab fa-docker'
   heading: 'Laborator: prezentare proiect'
   body: >
-    Prezentare proiect
+    Ne vedem pentru prezentarea proiectului final.
 
 - type: 'label'
   class: 'danger'

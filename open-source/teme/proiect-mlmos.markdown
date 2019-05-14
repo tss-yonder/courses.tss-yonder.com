@@ -27,6 +27,8 @@ Sugestii:
 
 Vă recomandăm să folosiţi paginile de documentaţie ale produselor cu care veţi lucra !  
 Se poate lucra şi prezenta tema în echipe de câte 2 persoane maxim, cu menţiunea ca fiecare membru să îşi prezinte contribuţia.  
-Termen limita - laborator Saptamana 14  
+Termen limita - laborator Saptamana 14  - 27.05.2019 - 02.06.2019
+Vă recomandăm să verificaţi informaţiile prezentate în laboratorul 9 - <a href="../laboratoare/swarm">Docker swarm şi Gitlab</a>  
+Veţi găsi foarte multe informaţii utile pentru rezolvarea temei.
 
 Pentru a beneficia în cadrul materiei MLMOS de bonusul pentru contribuţii în mediul Open-Source, vă rugăm sa prezentaţi contribuţiile, după prezentarea proiectului. Prezentarea contribuţiei Open Source trebuie sa prezinte scopul proiectului, un caz concret de un bug/feature şi ce paşi/acţiuni s-au luat în commitul ce va fi prezentat.
