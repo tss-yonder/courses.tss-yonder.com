@@ -19,7 +19,8 @@ icon: fab fa-osi
 Evaluarea la această disciplină va consta din următoarele componente facultative:
 
  * **TC** -- susţinerea unui număr de 3 teste scrise neanunţate -- sub forma unor scurte exerciţii/eseuri din materia predată -- fără a se axa pe testarea cunoştinţelor privind un anumit limbaj de programare --, fiind permisă consultarea documentaţiilor -- la finalul unor prelegeri de curs. **T1** şi **T2** vor putea fi evaluate cu maxim 2.5 puncte, iar **T3** cu 5 puncte.
- * **TL** -- implementarea și prezentarea a unui număr de **4 teme** pentru laborator -- sub forma unor exerciții bazate pe subiectul dezbătut în cadrul laboratorului -- fiecare temă va fi notată cu un punctaj de maxim **10 puncte**.
+ * **TL** -- implementarea și prezentarea a unui număr de **3 teme*** pentru laborator -- sub forma unor exerciții bazate pe subiectul dezbătut în cadrul laboratorului -- fiecare temă va fi notată cu un punctaj de maxim **10 puncte**.
+ \* Actualizare - iniţial erau programate 4 teme dar am re-evaluat şi am ajustat numărul propus de teme. Această schimbare a fost anunţată pe decursul laboratoarelor si cursului curent.
  * **P** -- realizarea unui proiect ce va avea o temă propusă de către [echipa] materiei în partea a doua a semestrului -- fiecare student va fi notat cu maxim **10 puncte** în funcție de contribuția la proiect.
 
 Punctajul final este calculat astfel: **PF** = Sum(**TC**) * 0.2 + Average(**TL**) * 0.4 + **P** * 0.5.
