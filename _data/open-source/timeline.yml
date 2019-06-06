@@ -402,6 +402,34 @@
     Pentru cei care nu pot participa vineri, ramane intervalul 10-12 pe 1 Iunie ca si alternativa.
 
 - type: 'label'
+  class: 'primary'
+  content: 'săptămâna 17 - 17.06 - 23.06'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Restanţă'
+  body: >
+    Vom organiza sesiunea de restanţe conform programului din <a href="https://profs.info.uaic.ro/~orar/discipline/orar_mlmos.html">orar</a> - Joi, 20.06.2019 - C401, 18-20.
+    Pentru prezentarea proiectului final în restanţă este nevoie sa aveţi minim 1 punct, conform regulamentului de <a href="https://courses.tss-yonder.com/open-source/evaluare/">evaluare</a>
+
+- type: 'label'
+  class: 'primary'
+  content: 'săptămâna 18'
+
+- type: 'event'
+  class: 'info'
+  point:
+    class: 'black'
+    icon: 'fas fa-book'
+  heading: 'Vă urăm succes!'
+  body: >
+    Vă mulţumim că aţi participat la această materie. Sperăm că aţi găsit utile informaţiile prezentate.
+
+
+- type: 'label'
   class: 'danger'
   icon: 'fas fa-stop'
 
