@@ -236,7 +236,7 @@ chmod [option(s)]... octal-mode file...
 chmod [option(s)]... --reference=rfile file...
 ```
 >Atenție!
->Când se adaugă sau revocă permisiune de execuție pe un director, defapt se permite sau nu accesul la conținutul directorului. Dacă permisiunea de execuție nu este specificată pentru un director, atunci nu contează cine are drepturi de citire sau scriere, doar cine cunoaște denumirea fișierului din acest director are acces la el.
+>Când se adaugă sau revocă permisiune de execuție pe un director, de fapt se permite sau nu accesul la conținutul directorului. Dacă permisiunea de execuție nu este specificată pentru un director, atunci nu contează cine are drepturi de citire sau scriere, doar cine cunoaște denumirea fișierului din acest director are acces la el.
 
 Sunt 2 moduri de a exprima permisiunile:
 - modul 1 (mode) - se aplică acțiuni de adăugare, revocare sau înlocuire a permisiunilor pentru identități
