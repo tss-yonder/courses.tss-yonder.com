@@ -1,20 +1,20 @@
 # Site Settings
 title: Cursuri susținute de TSS-Yonder
-url: "https://courses.tss-yonder.com"
-baseurl: ""
+url: "https://tss-yonder.github.io/"
+baseurl: "courses.tss-yonder.com"
 paginate_path: resurse/pagina-:num/
 permalink: resurse/:categories/:title/
 force-https: True
 lang: "ro"
 paginate: 5
 google-tracking-id: "UA-99139394-1"
-theme: jekyll-theme-minimal
+theme: prettydocs-jekyll
 
 # Build Settings
 github:             [metadata]
-encoding:           UTF-8 
+encoding:           UTF-8
 markdown:           kramdown
-highlighter:        none
+highlighter:        rouge
 kramdown:
   input:            GFM
   auto_ids:         true
@@ -41,7 +41,7 @@ author:
   name: "TSS-Yonder"
   email: ""
   website:
-    url: " https://tss-yonder.com/"
+    url: "https://tss-yonder.github.io/courses.tss-yonder.com"
     title: ""
 
 # Shower default values
@@ -63,4 +63,4 @@ exclude:
   - .build
 
 # Settings for build and deploy
-production_url:     "https://courses.tss-yonder.com/"
+production_url: "https://tss-yonder.github.io/courses.tss-yonder.com/"
