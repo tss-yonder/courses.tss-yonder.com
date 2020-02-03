@@ -8,7 +8,7 @@ force-https: True
 lang: "ro"
 paginate: 5
 google-tracking-id: "UA-99139394-1"
-theme: "prettydocs-jekyll"
+theme: jekyll-theme-minimal
 
 # Build Settings
 github:             [metadata]
